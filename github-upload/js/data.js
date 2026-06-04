@@ -239,21 +239,18 @@ const TOPICS = [
     "cases": [],
     "quickRevision": "Colonial Acts → 1919 (Dyarchy) → 1935 (Federal basis) → 1947 (Independence) → 1950 (Constitution). Jan 26 = Republic Day.",
     "mnemonics": "\"Every Good Indian Constitution Makes Progress\" = East India → Govt Acts → Independence → Constitution → Modernisation & Progress",
-    "importanceScore": 7,
-    "difficulty": "medium",
+    "importanceScore": 6,
+    "difficulty": "easy",
     "pyqIds": [
-      "pyq_049",
-      "pyq_057"
+      "pyq_054"
     ],
     "flashcardIds": [
       "fc_001",
       "fc_002"
     ],
-    "frequency": 4,
+    "frequency": 1,
     "pyqYears": [
-      2023,
-      2024,
-      2025
+      2023
     ]
   },
   {
@@ -304,40 +301,28 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
-      "pyq_002",
-      "pyq_007",
+      "pyq_001",
+      "pyq_008",
       "pyq_009",
-      "pyq_010",
       "pyq_043",
-      "pyq_045",
-      "pyq_052",
-      "pyq_053",
-      "pyq_056",
-      "pyq_080",
-      "pyq_091",
-      "pyq_092",
-      "pyq_095",
-      "pyq_097",
-      "pyq_098",
-      "pyq_104",
-      "pyq_106",
-      "pyq_111",
-      "pyq_116",
-      "pyq_127",
-      "pyq_132",
-      "pyq_136",
-      "pyq_154",
-      "pyq_170",
-      "pyq_179",
-      "pyq_183",
-      "pyq_184",
-      "pyq_188"
+      "pyq_050",
+      "pyq_051",
+      "pyq_077",
+      "pyq_079",
+      "pyq_081",
+      "pyq_083",
+      "pyq_087",
+      "pyq_103",
+      "pyq_108",
+      "pyq_118",
+      "pyq_134",
+      "pyq_135"
     ],
     "flashcardIds": [
       "fc_004",
       "fc_005"
     ],
-    "frequency": 41,
+    "frequency": 26,
     "pyqYears": [
       2023,
       2024,
@@ -390,18 +375,17 @@ const TOPICS = [
     "cases": [],
     "quickRevision": "CA: Dec 1946 – Nov 1949. Ambedkar = Drafting Committee. Adopted Nov 26, 1949. Enforced Jan 26, 1950. 395 Articles, 8 Schedules originally.",
     "mnemonics": "\"ARAN\" = Ambedkar (Drafting), Rajendra Prasad (President), 2 yr 11 mo 18 days, November 26 (Constitution Day)",
-    "importanceScore": 9,
+    "importanceScore": 7,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_044",
-      "pyq_126",
-      "pyq_129"
+      "pyq_042",
+      "pyq_104"
     ],
     "flashcardIds": [
       "fc_007",
       "fc_008"
     ],
-    "frequency": 5,
+    "frequency": 4,
     "pyqYears": [
       2023,
       2024,
@@ -434,25 +418,22 @@ const TOPICS = [
     ],
     "quickRevision": "Preamble = SSDDR (Sovereign Socialist Secular Democratic Republic). JLEF = Justice Liberty Equality Fraternity. 42nd Amendment added Socialist + Secular. Kesavananda Bharati = Basic Structure.",
     "mnemonics": "\"SSDDR\" for nature; \"JLEF\" for goals. 42 = Socialist + Secular added (remember: SS-42)",
-    "importanceScore": 10,
-    "difficulty": "hard",
+    "importanceScore": 9,
+    "difficulty": "medium",
     "pyqIds": [
-      "pyq_001",
-      "pyq_054",
-      "pyq_058",
-      "pyq_094",
-      "pyq_133",
-      "pyq_163"
+      "pyq_052",
+      "pyq_055",
+      "pyq_080",
+      "pyq_105"
     ],
     "flashcardIds": [
       "fc_009",
       "fc_010",
       "fc_011"
     ],
-    "frequency": 9,
+    "frequency": 7,
     "pyqYears": [
       2023,
-      2024,
       2025
     ]
   },
@@ -486,7 +467,7 @@ const TOPICS = [
     "importanceScore": 6,
     "difficulty": "easy",
     "pyqIds": [
-      "pyq_105"
+      "pyq_088"
     ],
     "flashcardIds": [
       "fc_012",
@@ -526,16 +507,15 @@ const TOPICS = [
     "importanceScore": 7,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_089",
-      "pyq_093",
-      "pyq_131"
+      "pyq_002"
     ],
     "flashcardIds": [
       "fc_014"
     ],
-    "frequency": 3,
+    "frequency": 2,
     "pyqYears": [
-      2023
+      2023,
+      2024
     ]
   },
   {
@@ -649,7 +629,7 @@ const TOPICS = [
     "importanceScore": 6,
     "difficulty": "easy",
     "pyqIds": [
-      "pyq_164"
+      "pyq_124"
     ],
     "flashcardIds": [
       "fc_020",
@@ -686,25 +666,20 @@ const TOPICS = [
     ],
     "quickRevision": "Privacy = Fundamental Right under Art. 21 (Puttaswamy 2017). 9-judge bench. Includes: Bodily autonomy, Informational privacy, Privacy of choice. DPDPA 2023 = statutory protection.",
     "mnemonics": "\"BICD\" = Bodily, Informational, Choice, Decisional — 4 types of privacy",
-    "importanceScore": 10,
-    "difficulty": "hard",
+    "importanceScore": 7,
+    "difficulty": "medium",
     "pyqIds": [
-      "pyq_005",
-      "pyq_051",
-      "pyq_130",
-      "pyq_145",
-      "pyq_153",
-      "pyq_174",
-      "pyq_181"
+      "pyq_049",
+      "pyq_132",
+      "pyq_136"
     ],
     "flashcardIds": [
       "fc_023",
       "fc_024"
     ],
-    "frequency": 8,
+    "frequency": 3,
     "pyqYears": [
       2023,
-      2024,
       2025
     ]
   },
@@ -776,19 +751,21 @@ const TOPICS = [
     ],
     "quickRevision": "Art. 32 = Heart & Soul (Ambedkar). 5 Writs: HC (body), Mandamus (command), Prohibition (prevent before), Certiorari (quash after), Quo Warranto (public office). Art. 226 = HC wider jurisdiction.",
     "mnemonics": "\"HMPCQ\" = Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto",
-    "importanceScore": 6,
-    "difficulty": "easy",
+    "importanceScore": 7,
+    "difficulty": "medium",
     "pyqIds": [
-      "pyq_128"
+      "pyq_007"
     ],
     "flashcardIds": [
       "fc_027",
       "fc_028",
       "fc_029"
     ],
-    "frequency": 1,
+    "frequency": 3,
     "pyqYears": [
-      2023
+      2023,
+      2024,
+      2025
     ]
   },
   {
@@ -823,22 +800,19 @@ const TOPICS = [
     ],
     "quickRevision": "DPSP = Art. 36-51, Non-justiciable, Inspired by Ireland. Types: Socialistic, Gandhian, Liberal. Art. 44 = UCC. Art. 48A = Environment. Minerva Mills = Balance FR vs DPSP.",
     "mnemonics": "\"SGL\" = Socialist, Gandhian, Liberal — 3 types of DPSP",
-    "importanceScore": 10,
-    "difficulty": "hard",
+    "importanceScore": 9,
+    "difficulty": "medium",
     "pyqIds": [
       "pyq_004",
-      "pyq_008",
-      "pyq_055",
-      "pyq_096",
-      "pyq_102",
-      "pyq_180",
-      "pyq_182"
+      "pyq_053",
+      "pyq_082",
+      "pyq_133"
     ],
     "flashcardIds": [
       "fc_030",
       "fc_031"
     ],
-    "frequency": 12,
+    "frequency": 7,
     "pyqYears": [
       2023,
       2024,
@@ -871,9 +845,8 @@ const TOPICS = [
     "importanceScore": 9,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_006",
-      "pyq_088",
-      "pyq_166"
+      "pyq_005",
+      "pyq_006"
     ],
     "flashcardIds": [
       "fc_032",
@@ -955,44 +928,35 @@ const TOPICS = [
     "difficulty": "hard",
     "pyqIds": [
       "pyq_003",
+      "pyq_010",
       "pyq_011",
       "pyq_012",
       "pyq_013",
       "pyq_014",
-      "pyq_015",
+      "pyq_016",
       "pyq_017",
       "pyq_018",
       "pyq_019",
-      "pyq_020",
-      "pyq_046",
+      "pyq_044",
+      "pyq_056",
+      "pyq_057",
+      "pyq_058",
       "pyq_059",
       "pyq_060",
-      "pyq_061",
-      "pyq_062",
-      "pyq_063",
-      "pyq_064",
-      "pyq_087",
-      "pyq_099",
-      "pyq_101",
-      "pyq_103",
-      "pyq_134",
-      "pyq_137",
-      "pyq_138",
-      "pyq_156",
-      "pyq_157",
-      "pyq_158",
-      "pyq_159",
-      "pyq_162",
-      "pyq_165",
-      "pyq_167",
-      "pyq_168",
-      "pyq_185"
+      "pyq_084",
+      "pyq_086",
+      "pyq_106",
+      "pyq_120",
+      "pyq_121",
+      "pyq_122",
+      "pyq_125",
+      "pyq_126"
     ],
     "flashcardIds": [
       "fc_036",
       "fc_037"
     ],
-    "frequency": 55,
+    "frequency": 47,
     "pyqYears": [
       2023,
       2024,
@@ -1030,8 +994,8 @@ const TOPICS = [
     "importanceScore": 7,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_100",
-      "pyq_155"
+      "pyq_085",
+      "pyq_119"
     ],
     "flashcardIds": [
       "fc_038",
@@ -1077,17 +1041,16 @@ const TOPICS = [
     "importanceScore": 9,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_065",
-      "pyq_086",
-      "pyq_135",
-      "pyq_160",
-      "pyq_161"
+      "pyq_061",
+      "pyq_076",
+      "pyq_107",
+      "pyq_123"
     ],
     "flashcardIds": [
       "fc_040",
       "fc_041"
     ],
-    "frequency": 7,
+    "frequency": 6,
     "pyqYears": [
       2023,
       2025
@@ -1125,7 +1088,7 @@ const TOPICS = [
     "importanceScore": 7,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_016"
+      "pyq_015"
     ],
     "flashcardIds": [
       "fc_042",
@@ -1231,20 +1194,22 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
+      "pyq_020",
       "pyq_021",
-      "pyq_022",
-      "pyq_024",
-      "pyq_030",
-      "pyq_113",
-      "pyq_141",
-      "pyq_189"
+      "pyq_023",
+      "pyq_029",
+      "pyq_093",
+      "pyq_096",
+      "pyq_137",
+      "pyq_138",
+      "pyq_139"
     ],
     "flashcardIds": [
       "fc_047",
       "fc_048",
       "fc_049"
     ],
-    "frequency": 13,
+    "frequency": 16,
     "pyqYears": [
       2023,
       2024,
@@ -1276,14 +1241,14 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
-      "pyq_066",
+      "pyq_062",
+      "pyq_089",
       "pyq_090",
-      "pyq_107",
-      "pyq_108",
-      "pyq_109",
-      "pyq_169",
-      "pyq_171",
-      "pyq_192"
+      "pyq_091",
+      "pyq_110",
+      "pyq_127",
+      "pyq_128",
+      "pyq_142"
     ],
     "flashcardIds": [
       "fc_050",
@@ -1322,10 +1287,9 @@ const TOPICS = [
     "importanceScore": 9,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_115",
-      "pyq_143",
-      "pyq_146",
-      "pyq_187"
+      "pyq_032",
+      "pyq_095",
+      "pyq_112"
     ],
     "flashcardIds": [
       "fc_052"
@@ -1333,6 +1297,7 @@ const TOPICS = [
     "frequency": 6,
     "pyqYears": [
       2023,
+      2024,
       2025
     ]
   },
@@ -1359,8 +1324,8 @@ const TOPICS = [
     "importanceScore": 7,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_047",
-      "pyq_191"
+      "pyq_045",
+      "pyq_141"
     ],
     "flashcardIds": [
       "fc_053",
@@ -1395,26 +1360,21 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
-      "pyq_029",
+      "pyq_028",
       "pyq_033",
       "pyq_034",
-      "pyq_035",
-      "pyq_073",
-      "pyq_074",
+      "pyq_067",
+      "pyq_068",
+      "pyq_069",
+      "pyq_070",
       "pyq_075",
-      "pyq_076",
-      "pyq_077",
-      "pyq_085",
-      "pyq_114",
-      "pyq_118",
-      "pyq_142",
-      "pyq_172",
-      "pyq_186"
+      "pyq_094",
+      "pyq_129"
     ],
     "flashcardIds": [
       "fc_055"
     ],
-    "frequency": 27,
+    "frequency": 21,
     "pyqYears": [
       2023,
       2024,
@@ -1445,18 +1405,19 @@ const TOPICS = [
     "importanceScore": 9,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_028",
-      "pyq_048",
-      "pyq_069"
+      "pyq_027",
+      "pyq_046",
+      "pyq_078"
     ],
     "flashcardIds": [
       "fc_056",
       "fc_057"
     ],
-    "frequency": 5,
+    "frequency": 6,
     "pyqYears": [
       2023,
-      2024
+      2024,
+      2025
     ]
   },
   {
@@ -1485,14 +1446,13 @@ const TOPICS = [
     "importanceScore": 7,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_027",
-      "pyq_070"
+      "pyq_026"
     ],
     "flashcardIds": [
       "fc_058",
       "fc_059"
     ],
-    "frequency": 4,
+    "frequency": 3,
     "pyqYears": [
       2023,
       2024,
@@ -1525,15 +1485,14 @@ const TOPICS = [
     "importanceScore": 9,
     "difficulty": "medium",
     "pyqIds": [
-      "pyq_026",
-      "pyq_068",
-      "pyq_112"
+      "pyq_025",
+      "pyq_064"
     ],
     "flashcardIds": [
       "fc_060",
       "fc_061"
     ],
-    "frequency": 6,
+    "frequency": 5,
     "pyqYears": [
       2023,
       2024,
@@ -1563,25 +1522,22 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
-      "pyq_023",
-      "pyq_025",
-      "pyq_032",
-      "pyq_067",
-      "pyq_071",
-      "pyq_072",
-      "pyq_110",
-      "pyq_117",
-      "pyq_139",
-      "pyq_140",
-      "pyq_144",
-      "pyq_173",
-      "pyq_175",
-      "pyq_190"
+      "pyq_022",
+      "pyq_024",
+      "pyq_031",
+      "pyq_063",
+      "pyq_065",
+      "pyq_066",
+      "pyq_092",
+      "pyq_097",
+      "pyq_109",
+      "pyq_130",
+      "pyq_140"
     ],
     "flashcardIds": [
       "fc_062"
     ],
-    "frequency": 22,
+    "frequency": 19,
     "pyqYears": [
       2023,
       2024,
@@ -1611,23 +1567,22 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
-      "pyq_031",
+      "pyq_030",
+      "pyq_035",
       "pyq_036",
-      "pyq_037",
-      "pyq_039",
-      "pyq_042",
-      "pyq_079",
-      "pyq_122",
-      "pyq_125",
-      "pyq_149",
-      "pyq_150",
-      "pyq_176"
+      "pyq_038",
+      "pyq_041",
+      "pyq_071",
+      "pyq_102",
+      "pyq_111",
+      "pyq_115",
+      "pyq_116"
     ],
     "flashcardIds": [
       "fc_063",
       "fc_064"
     ],
-    "frequency": 20,
+    "frequency": 21,
     "pyqYears": [
       2023,
       2024,
@@ -1683,33 +1638,28 @@ const TOPICS = [
     "importanceScore": 10,
     "difficulty": "hard",
     "pyqIds": [
-      "pyq_038",
+      "pyq_037",
+      "pyq_039",
       "pyq_040",
-      "pyq_041",
-      "pyq_050",
-      "pyq_078",
-      "pyq_081",
-      "pyq_082",
-      "pyq_083",
-      "pyq_084",
-      "pyq_119",
-      "pyq_120",
-      "pyq_121",
-      "pyq_123",
-      "pyq_124",
-      "pyq_147",
-      "pyq_148",
-      "pyq_151",
-      "pyq_152",
-      "pyq_177",
-      "pyq_178",
-      "pyq_193"
+      "pyq_047",
+      "pyq_048",
+      "pyq_072",
+      "pyq_073",
+      "pyq_074",
+      "pyq_098",
+      "pyq_099",
+      "pyq_100",
+      "pyq_101",
+      "pyq_113",
+      "pyq_114",
+      "pyq_117",
+      "pyq_131"
     ],
     "flashcardIds": [
       "fc_067",
       "fc_068"
     ],
-    "frequency": 37,
+    "frequency": 33,
     "pyqYears": [
       2023,
       2024,
@@ -1719,22 +1669,22 @@ const TOPICS = [
 ];
 
 // ============================================================
-// PYQ DATABASE (193 questions across 2023, 2024, 2025)
+// PYQ DATABASE (142 questions across 2023, 2024, 2025)
 // ============================================================
 const PYQS = [
   {
-    "question": "No person can be employed in factories or mines unless he is above",
+    "question": "No person can be employed in factories or mines unless he is above the age of",
     "options": [
-      "A) the age of:",
+      "A) 12 years.",
       "B) 14 years",
-      "C) 20 years",
-      "D) 18 years 12 years"
+      "C) 18 years.",
+      "D) 20 years."
     ],
     "answer": "B",
     "explanation": "Correct answer is B) 14 years.",
     "unit": 1,
     "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2024 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1",
     "years": [
       2023,
       2024
@@ -1742,25 +1692,27 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 1A",
       "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
       "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
       "PYQ 2024 Set 1"
     ],
     "id": "pyq_001",
-    "topic": "preamble"
+    "topic": "goi_act_1935"
   },
   {
-    "question": "Which portion of the Indian Constitution reflects the mind and ideals of",
+    "question": "Which portion of the Indian Constitution reflects the mind and ideals of its framers?",
     "options": [
-      "A) its framers?",
+      "A) Preamble",
       "B) Fundamental Rights",
-      "C) Emergency Provisions",
-      "D) Preamble Directive Principles"
+      "C) Directive Principles",
+      "D) Emergency Provisions"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Preamble.",
     "unit": 1,
     "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2024 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2024 Set 1",
     "years": [
       2023,
       2024
@@ -1768,19 +1720,20 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 1A",
       "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
       "PYQ 2023 Set 4",
       "PYQ 2024 Set 1"
     ],
     "id": "pyq_002",
-    "topic": "goi_act_1935"
+    "topic": "secularism"
   },
   {
-    "question": "Which of the following statements is correct with regard to the",
+    "question": "Which of the following statements is correct?",
     "options": [
-      "A) structure of the Union Government?",
-      "B) It is Federal",
-      "C) It is Federal in peace times and Unitary in the Emergencies",
-      "D) It is Unitary It is Unitary in peace times and Federal in Emergencies 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 2/17"
+      "A) The Vice-President is impeached through a motion passed by half of the state legislatures",
+      "B) The Vice-President is removed through a motion passed by Council of State and approved by House of People",
+      "C) The Vice-President is the Supreme Commander of the Armed Forces",
+      "D) The Vice-President is the sole authority who can impose National Emergency"
     ],
     "answer": "B",
     "explanation": "Correct answer is B) The Vice-President is removed through a motion passed by Council of State and approved by House of People.",
@@ -1803,13 +1756,13 @@ const PYQS = [
   {
     "question": "Which one of the Directive Principles is Gandhian?",
     "options": [
-      "A) Organization of village Panchayats as effective units of local self-government",
-      "B) Protection of workers, especially children",
-      "C) None of the options",
-      "D) Equal pay for equal work for both men and women"
+      "A) Equal pay for equal work for both men and women",
+      "B) Organization of village Panchayats as effective units of local self-government",
+      "C) Protection of workers, especially children",
+      "D) None of the options"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Organization of village Panchayats as effective units of local self-government.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Organization of village Panchayats as effective units of local self-government.",
     "unit": 1,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
@@ -1825,39 +1778,46 @@ const PYQS = [
     "topic": "dpsp"
   },
   {
-    "question": "The right to move the court for the enforcement of Fundamental Rights",
+    "question": "The Fundamental Rights:",
     "options": [
-      "A) is itself a guaranteed Fundamental Right.",
-      "B) Subordinate",
-      "C) High",
-      "D) Supreme Quasi-Judicial"
+      "A) Were added by 42nd amendment",
+      "B) Were added by 44th amendment",
+      "C) Formed a part of original Constitution",
+      "D) Were added by Parliament in 1952"
     ],
     "answer": "C",
     "explanation": "Correct answer is C) Formed a part of original Constitution.",
     "unit": 1,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 1",
     "years": [
       2023,
-      2024
+      2024,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 3",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1"
     ],
     "id": "pyq_005",
-    "topic": "right_to_privacy"
+    "topic": "fundamental_duties"
   },
   {
     "question": "We borrowed the Concept of Fundamental Duties from the:",
     "options": [
-      "A) USSR Constitution",
+      "A) American Constitution",
       "B) Irish constitution",
-      "C) American Constitution",
-      "D) Canadian Constitution 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 3/17"
+      "C) Canadian Constitution",
+      "D) USSR Constitution"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) USSR Constitution.",
+    "answer": "D",
+    "explanation": "Correct answer is D) USSR Constitution.",
     "unit": 1,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2023 Backlog, PYQ 2024 Set 1",
@@ -1875,43 +1835,18 @@ const PYQS = [
     "topic": "fundamental_duties"
   },
   {
-    "question": "Identify the Article of the Constitution which abolished untouchability.",
+    "question": "Article 13(2",
     "options": [
-      "A) Article 15",
-      "B) Article 17",
-      "C) Article 16",
-      "D) Article 19"
+      "A) includes law amending the Constitution",
+      "B) does not include a law amending the Constitution",
+      "C) states that the State shall not make any law which takes away or abridges the fundamental rights",
+      "D) none of the options."
     ],
     "answer": "C",
     "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
     "unit": 1,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2023 Set 2",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_007",
-    "topic": "goi_act_1935"
-  },
-  {
-    "question": "The Fundamental Rights of the Indian citizens have been enumerated",
-    "options": [
-      "A) from:",
-      "B) Articles 15 to 39 of the Constitution",
-      "C) Articles 13 to 36 of the Constitution",
-      "D) Articles 12 to 35 of the Constitution Articles 16 to 40 of the Constitution"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
     "year": 2025,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1, PYQ 2025 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2023 Set 3, PYQ 2024 Set 1, PYQ 2025 Set 1, PYQ 2025 Set 2",
     "years": [
       2023,
       2024,
@@ -1919,43 +1854,49 @@ const PYQS = [
     ],
     "sources": [
       "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 3",
       "PYQ 2024 Set 1",
-      "PYQ 2025 Set 1"
+      "PYQ 2025 Set 1",
+      "PYQ 2025 Set 2"
     ],
-    "id": "pyq_008",
-    "topic": "dpsp"
+    "id": "pyq_007",
+    "topic": "constitutional_remedies"
   },
   {
-    "question": "The Constitution of India was adopted on:",
+    "question": "Constitution of India was adopted on:",
     "options": [
-      "A) 24th November 1950",
-      "B) 15th August, 1947",
-      "C) 26th January, 1950",
-      "D) 26th November 1949 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 4/17"
+      "A) 26th January, 1950",
+      "B) 24th November 1950",
+      "C) 15th August, 1947",
+      "D) 26th November 1949"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) 26th November 1949.",
+    "answer": "D",
+    "explanation": "Correct answer is D) 26th November 1949.",
     "unit": 1,
     "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2024 Set 1",
     "years": [
       2023,
       2024
     ],
     "sources": [
       "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
+      "PYQ 2023 Set 4",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_009",
+    "id": "pyq_008",
     "topic": "goi_act_1935"
   },
   {
     "question": "Which of the following is correctly matched?",
     "options": [
-      "A) Secular: The state is without religion of its own.",
-      "B) Republic: The head of the state is a hereditary monarch.",
-      "C) Democratic: The Constitution does not recognize the legal supremacy of",
-      "D) another country. Sovereign: The constitution rests on the people’s will."
+      "A) Republic: Head of the state is hereditary monarch.",
+      "B) Sovereign: Constitution rests on the people’s will.",
+      "C) Democratic: Constitution does not recognize legal supremacy of another country.",
+      "D) Secular: State is without religion of its own."
     ],
     "answer": "D",
     "explanation": "Correct answer is D) Secular: State is without religion of its own..",
@@ -1974,7 +1915,7 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_010",
+    "id": "pyq_009",
     "topic": "goi_act_1935"
   },
   {
@@ -1982,14 +1923,14 @@ const PYQS = [
     "options": [
       "A) The Prime Minister",
       "B) The President",
-      "C) The President on the advice of the Chief Minister of the State",
-      "D) The President on the recommendation of the Central Council of Ministers headed by the Prime Minister"
+      "C) The President on the recommendation of the Central Council of Ministers headed by Prime Minister",
+      "D) The President on the advice of the Chief Minister of the State"
     ],
     "answer": "C",
     "explanation": "Correct answer is C) The President on the recommendation of the Central Council of Ministers headed by Prime Minister.",
     "unit": 2,
     "year": 2025,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 2",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 1, PYQ 2025 Set 2",
     "years": [
       2023,
       2024,
@@ -2002,18 +1943,19 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2023 Backlog",
       "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_011",
+    "id": "pyq_010",
     "topic": "president"
   },
   {
-    "question": "The President of India can be impeached for:",
+    "question": "President of India can be impeached for",
     "options": [
-      "A) Violation of International Obligation",
-      "B) All of the options",
+      "A) Violation of Constitution of India",
+      "B) Violation of International Obligation",
       "C) Violation of Legal Rights",
-      "D) Violation of the Constitution of India 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 5/17"
+      "D) All of the options"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Violation of Constitution of India.",
@@ -2028,83 +1970,91 @@ const PYQS = [
       "PYQ 2023 Set 1A",
       "PYQ 2024 Set 1"
     ],
+    "id": "pyq_011",
+    "topic": "president"
+  },
+  {
+    "question": "Chief Minister of a State is responsible to",
+    "options": [
+      "A) Prime Minister",
+      "B) Rajya Sabha",
+      "C) Legislative Assembly",
+      "D) Governor"
+    ],
+    "answer": "C",
+    "explanation": "Correct answer is C) Legislative Assembly.",
+    "unit": 2,
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2024 Set 1, PYQ 2025 Set 1",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "sources": [
+      "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 4",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1"
+    ],
     "id": "pyq_012",
     "topic": "president"
   },
   {
-    "question": "The Chief Minister of a State is responsible to:",
+    "question": "Formally all the executive powers of the Union Government are vested in",
     "options": [
-      "A) Rajya Sabha",
-      "B) Legislative Assembly",
-      "C) Governor",
-      "D) Prime Minister"
+      "A) The President of India",
+      "B) The Cabinet Ministers only",
+      "C) The Prime Minister of India",
+      "D) The Union Council of Ministers"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Legislative Assembly.",
+    "answer": "A",
+    "explanation": "Correct answer is A) The President of India.",
     "unit": 2,
     "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Backlog, PYQ 2024 Set 1",
     "years": [
       2023,
       2024
     ],
     "sources": [
       "PYQ 2023 Set 1A",
+      "PYQ 2023 Backlog",
       "PYQ 2024 Set 1"
     ],
     "id": "pyq_013",
     "topic": "president"
   },
   {
-    "question": "Formally all the executive powers of the Union Government are",
+    "question": "Which of the following is not a qualification for being a member of Parliament?",
     "options": [
-      "A) vested in:",
-      "B) The Cabinet Ministers only",
-      "C) The Prime Minister of India",
-      "D) The Union Council of Ministers The President of India"
+      "A) Must be a graduate with 55% of marks",
+      "B) Must be an Indian citizen",
+      "C) Must be minimum of 25 years of age",
+      "D) Must not hold any office of profit"
     ],
     "answer": "A",
-    "explanation": "Correct answer is A) The President of India.",
+    "explanation": "Correct answer is A) Must be a graduate with 55% of marks.",
     "unit": 2,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1, PYQ 2025 Set 2",
     "years": [
       2023,
-      2024
+      2024,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 2"
     ],
     "id": "pyq_014",
     "topic": "president"
   },
   {
-    "question": "Which of the following is not a prescribed qualification for",
-    "options": [
-      "A) appointment as a Judge of the Supreme Court?",
-      "B) He should have worked as an advocate in any High Court for a minimum",
-      "C) period of ten years",
-      "D) He should not be more than 55 years of age He should have worked as a Judge of a High Court for a minimum period of five years He should be an eminent jurist in the opinion of the President 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 6/17"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Must be a graduate with 55% of marks.",
-    "unit": 2,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_015",
-    "topic": "president"
-  },
-  {
-    "question": "The final authority to interpret the Constitution:",
+    "question": "The final authority to interpret the constitution",
     "options": [
       "A) Parliament",
       "B) Supreme Court",
@@ -2124,15 +2074,15 @@ const PYQS = [
       "PYQ 2023 Set 1A",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_016",
+    "id": "pyq_015",
     "topic": "national_emergency"
   },
   {
     "question": "Who administers the oath of office to the President?",
     "options": [
-      "A) The Chief Election Commissioner",
-      "B) The Prime Minister",
-      "C) The Vice-President",
+      "A) The Prime Minister 18",
+      "B) The Vice-President",
+      "C) The Chief Election Commissioner",
       "D) The Chief-Justice of India"
     ],
     "answer": "D",
@@ -2149,19 +2099,46 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2024 Set 1"
     ],
+    "id": "pyq_016",
+    "topic": "president"
+  },
+  {
+    "question": "How many members of Rajya Sabha are nominated by the President of India?",
+    "options": [
+      "A) 2",
+      "B) 12",
+      "C) 10",
+      "D) 15"
+    ],
+    "answer": "B",
+    "explanation": "Correct answer is B) 12.",
+    "unit": 2,
+    "year": 2024,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2024 Set 1",
+    "years": [
+      2023,
+      2024
+    ],
+    "sources": [
+      "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 4",
+      "PYQ 2024 Set 1"
+    ],
     "id": "pyq_017",
     "topic": "president"
   },
   {
-    "question": "How many members of Rajya Sabha are nominated by the President",
+    "question": "The ordinance may be promulgated by the President of India when",
     "options": [
-      "A) of India?",
-      "B) 2",
-      "C) 12",
-      "D) 10 15 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 7/17"
+      "A) The National Emergency is in force",
+      "B) There is armed rebellion",
+      "C) The houses of Parliament is not in session",
+      "D) None of the options"
     ],
     "answer": "C",
-    "explanation": "Correct answer is C) 12.",
+    "explanation": "Correct answer is C) The houses of Parliament is not in session.",
     "unit": 2,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
@@ -2177,39 +2154,15 @@ const PYQS = [
     "topic": "president"
   },
   {
-    "question": "The ordinance may be promulgated by the President of India when:",
-    "options": [
-      "A) The National Emergency is in force",
-      "B) None of the options",
-      "C) There is armed rebellion",
-      "D) The Houses of Parliament is not in session"
-    ],
-    "answer": "D",
-    "explanation": "Correct answer is D) The houses of Parliament is not in session.",
-    "unit": 2,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_019",
-    "topic": "president"
-  },
-  {
     "question": "Who is the ex-officio chairman of the Council of State?",
     "options": [
-      "A) Prime Minister",
-      "B) Minister for Parliamentary affairs",
-      "C) President of India",
-      "D) Vice-President of India"
+      "A) President of India",
+      "B) Vice-President of India",
+      "C) Prime Minister",
+      "D) Minister for Parliamentary affairs"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) Vice-President of India.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Vice-President of India.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2023 Set 1A, PYQ 2023 Set 3, PYQ 2024 Set 1, PYQ 2025 Set 1",
@@ -2224,31 +2177,35 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_020",
+    "id": "pyq_019",
     "topic": "president"
   },
   {
-    "question": "Which section of the IT Act was invalidated by the Supreme Court of",
+    "question": "Which section of IT Act was invalidated by Supreme Court of India?",
     "options": [
-      "A) India?",
-      "B) Section 66F",
+      "A) Section 66F",
+      "B) Section 66B",
       "C) Section 66D",
-      "D) Section 66B Section 66A 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 8/17"
+      "D) Section 66A"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Section 66A.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Section 66A.",
     "unit": 3,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 3, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 1",
     "years": [
       2023,
-      2024
+      2024,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
+      "PYQ 2023 Set 3",
+      "PYQ 2023 Backlog",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1"
     ],
-    "id": "pyq_021",
+    "id": "pyq_020",
     "topic": "it_act_2000"
   },
   {
@@ -2277,7 +2234,7 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_022",
+    "id": "pyq_021",
     "topic": "it_act_2000"
   },
   {
@@ -2304,16 +2261,16 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_023",
+    "id": "pyq_022",
     "topic": "geographical_indications"
   },
   {
     "question": "Bandwidth Theft refers to:",
     "options": [
-      "A) None of the options",
-      "B) The amount of data transferred from a website to a user's computer. When",
-      "C) you view a web page, you are using that site's bandwidth to display the files",
-      "D) The process of ‘befriending’ a young person online “to facilitate online sexual contact and/or a physical meeting with them to commit sexual abuse A cyber-crime in which a target is contacted through electronic means by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, passwords, etc 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 9/17"
+      "A) process of ’befriending’ a young person online...",
+      "B) amount of data transferred from a web site to a user’s computer. When you view a web page, you are using that site’s bandwidth to display the files",
+      "C) a cyber-crime in which a target is contacted through electronic means by someone posing as a legitimate institution...",
+      "D) none of the options"
     ],
     "answer": "B",
     "explanation": "Correct answer is B) amount of data transferred from a web site to a user’s computer. When you view a web page, you are using that site’s bandwidth to display the files.",
@@ -2328,7 +2285,7 @@ const PYQS = [
       "PYQ 2023 Set 1A",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_024",
+    "id": "pyq_023",
     "topic": "it_act_2000"
   },
   {
@@ -2355,43 +2312,76 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_025",
+    "id": "pyq_024",
     "topic": "geographical_indications"
   },
   {
-    "question": "The patent is granted for:",
+    "question": "Patent is granted for",
     "options": [
-      "A) Life time",
+      "A) 10 years",
       "B) 20 years",
       "C) 15 years",
-      "D) 10 years"
+      "D) Life time"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) 20 years.",
+    "answer": "B",
+    "explanation": "Correct answer is B) 20 years.",
     "unit": 3,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2024 Set 1, PYQ 2025 Set 1",
     "years": [
       2023,
-      2024
+      2024,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
+      "PYQ 2023 Set 2",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1"
     ],
-    "id": "pyq_026",
+    "id": "pyq_025",
     "topic": "patents"
   },
   {
-    "question": "Copyright is not available to which of the following works?",
+    "question": "Copyright is not available to which of the following work?",
     "options": [
       "A) Original Literary Work",
-      "B) Medicine",
-      "C) Cinematography films",
-      "D) Original Dramatic work 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 10/17"
+      "B) Original Dramatic work",
+      "C) Medicine",
+      "D) Cinematography films"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Medicine.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Medicine.",
+    "unit": 3,
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 2",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "sources": [
+      "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 2"
+    ],
+    "id": "pyq_026",
+    "topic": "copyright"
+  },
+  {
+    "question": "Which of the following is a function of trademark?",
+    "options": [
+      "A) It identifies the goods / or services and its origin",
+      "B) It guarantees its unchanged quality",
+      "C) It advertises the goods/services",
+      "D) All of the options."
+    ],
+    "answer": "D",
+    "explanation": "Correct answer is D) All of the options..",
     "unit": 3,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
@@ -2404,45 +2394,21 @@ const PYQS = [
       "PYQ 2024 Set 1"
     ],
     "id": "pyq_027",
-    "topic": "copyright"
-  },
-  {
-    "question": "Which of the following is a function of a trademark?",
-    "options": [
-      "A) All of the options",
-      "B) It advertises the goods/services",
-      "C) It guarantees its unchanged quality",
-      "D) It identifies the goods / or services and its origin"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) All of the options..",
-    "unit": 3,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_028",
     "topic": "trademark"
   },
   {
-    "question": "Intellectual Property Rights (IPR) protect the use of information and",
+    "question": "Intellectual Property Rights (IPR) protect the use of information and ideas that are of",
     "options": [
-      "A) ideas that are of:",
+      "A) Ethical value",
       "B) Moral value",
-      "C) Commercial value",
-      "D) Social value Ethical value"
+      "C) Social value",
+      "D) Commercial value"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Commercial value.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Commercial value.",
     "unit": 3,
     "year": 2025,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2024 Set 1, PYQ 2025 Set 2",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 2",
     "years": [
       2023,
       2024,
@@ -2451,23 +2417,25 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 1A",
       "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
       "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_029",
+    "id": "pyq_028",
     "topic": "intellectual_property"
   },
   {
-    "question": "The objective of the Information Technology Act 2000 is to:",
+    "question": "The objective of the Information Technology Act 2000 is to",
     "options": [
-      "A) To provide legal recognition for transactions carried out by means of",
-      "B) electronic data",
-      "C) All of the options",
-      "D) To encourage alternatives to paper-based methods of communication Interchange and other means of electronic communication 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 11/17"
+      "A) To provide legal recognition for transactions carried out by means of electronic data",
+      "B) Interchange and other means of electronic communication",
+      "C) To encourage alternatives to paper-based methods of communication",
+      "D) All of the options"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) All of the options.",
+    "answer": "D",
+    "explanation": "Correct answer is D) All of the options.",
     "unit": 3,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
@@ -2479,7 +2447,7 @@ const PYQS = [
       "PYQ 2023 Set 1A",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_030",
+    "id": "pyq_029",
     "topic": "it_act_2000"
   },
   {
@@ -2504,19 +2472,46 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_031",
+    "id": "pyq_030",
     "topic": "e_commerce"
   },
   {
     "question": "Which is not a type of E-Contract?",
     "options": [
-      "A) Clickwrap",
-      "B) Browse wrap",
-      "C) Bubble wrap",
-      "D) Shrink wrap"
+      "A) Click wrap",
+      "B) Bubble wrap",
+      "C) Shrink wrap",
+      "D) Browse wrap"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Bubble wrap.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Bubble wrap.",
+    "unit": 3,
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 3, PYQ 2024 Set 1, PYQ 2025 Set 1",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "sources": [
+      "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 3",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1"
+    ],
+    "id": "pyq_031",
+    "topic": "geographical_indications"
+  },
+  {
+    "question": "Which of the following section gives the essentials to a contract?",
+    "options": [
+      "A) Section 10 of Indian Contract Act",
+      "B) Section 10A of IT Act",
+      "C) Section 10 of Civil Procedure Act",
+      "D) Section 10 of Transfer of Property Act"
+    ],
+    "answer": "A",
+    "explanation": "Correct answer is A) Section 10 of Indian Contract Act.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 1A, PYQ 2023 Set 3, PYQ 2024 Set 1, PYQ 2025 Set 1",
@@ -2532,39 +2527,15 @@ const PYQS = [
       "PYQ 2025 Set 1"
     ],
     "id": "pyq_032",
-    "topic": "geographical_indications"
-  },
-  {
-    "question": "Which of the following sections gives the essentials to a contract?",
-    "options": [
-      "A) Section 10 of the Civil Procedure Act",
-      "B) Section 10A of the IT Act",
-      "C) Section 10 of the Transfer of Property Act",
-      "D) Section 10 of the Indian Contract Act 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 12/17"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Section 10 of Indian Contract Act.",
-    "unit": 3,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_033",
-    "topic": "intellectual_property"
+    "topic": "intermediary_liability"
   },
   {
     "question": "Which of the following is not a feature of e-commerce?",
     "options": [
-      "A) Physical location limitation",
-      "B) Customization",
-      "C) Information density",
-      "D) Ubiquity"
+      "A) Technology Mediated",
+      "B) Universality",
+      "C) Intercommunication",
+      "D) Non- delivery of Information"
     ],
     "answer": "D",
     "explanation": "Correct answer is D) Non- delivery of Information.",
@@ -2586,31 +2557,37 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_034",
+    "id": "pyq_033",
     "topic": "intellectual_property"
   },
   {
-    "question": "The Specific Performance of the contract is dealt with under:",
+    "question": "Specific Performance of the contract is dealt under:",
     "options": [
-      "A) IT Act",
+      "A) Specific Relief Act",
       "B) Indian Contract Act",
-      "C) Specific Relief Act",
+      "C) IT Act",
       "D) Civil Procedure Code"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Specific Relief Act.",
+    "answer": "A",
+    "explanation": "Correct answer is A) Specific Relief Act.",
     "unit": 3,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 2",
     "years": [
       2023,
-      2024
+      2024,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 2"
     ],
-    "id": "pyq_035",
+    "id": "pyq_034",
     "topic": "intellectual_property"
   },
   {
@@ -2634,19 +2611,19 @@ const PYQS = [
       "PYQ 2023 Set 1A",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_036",
+    "id": "pyq_035",
     "topic": "e_commerce"
   },
   {
     "question": "What does e-waste stand for?",
     "options": [
-      "A) Engineering waste",
-      "B) Electronic waste",
-      "C) Equipment waste",
-      "D) Environmental waste"
+      "A) Environmental waste",
+      "B) Equipment waste",
+      "C) Electronic waste",
+      "D) Engineering waste"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Electronic waste.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Electronic waste.",
     "unit": 4,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2024 Set 1",
@@ -2659,22 +2636,22 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_037",
+    "id": "pyq_036",
     "topic": "e_commerce"
   },
   {
-    "question": "A written statement of policies and principles that guides the behavior",
+    "question": "A written statement of policies and principles that guides the behavior of all employees is called:",
     "options": [
-      "A) of all employees is called:",
-      "B) Ethics and Behavior code",
-      "C) Word of Ethics",
-      "D) Code of Ethics Company’s Code"
+      "A) Word of Ethics",
+      "B) Company’s Code",
+      "C) Code of Ethics",
+      "D) Ethics and Behavior code"
     ],
     "answer": "C",
     "explanation": "Correct answer is C) Code of Ethics.",
     "unit": 4,
     "year": 2025,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1, PYQ 2025 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2024 Set 1, PYQ 2025 Set 1",
     "years": [
       2023,
       2024,
@@ -2682,34 +2659,38 @@ const PYQS = [
     ],
     "sources": [
       "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 2",
+      "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1"
+    ],
+    "id": "pyq_037",
+    "topic": "professional_ethics"
+  },
+  {
+    "question": "Promoting what is good for oneself without caring societal relationships can be termed",
+    "options": [
+      "A) Ethical Egoism",
+      "B) Self control",
+      "C) Self Esteem",
+      "D) Moral Authority 33"
+    ],
+    "answer": "A",
+    "explanation": "Correct answer is A) Ethical Egoism.",
+    "unit": 4,
+    "year": 2025,
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 2, PYQ 2024 Set 1, PYQ 2025 Set 1",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "sources": [
+      "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 2",
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
     "id": "pyq_038",
-    "topic": "professional_ethics"
-  },
-  {
-    "question": "Promoting what is good for oneself without caring about societal",
-    "options": [
-      "A) relationships can be termed:",
-      "B) Ethical Egoism",
-      "C) Self Esteem",
-      "D) Self-control Moral Authority 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 14/17"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Ethical Egoism.",
-    "unit": 4,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_039",
     "topic": "e_commerce"
   },
   {
@@ -2737,22 +2718,22 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_040",
+    "id": "pyq_039",
     "topic": "professional_ethics"
   },
   {
-    "question": "Ethics:",
+    "question": "Ethics -",
     "options": [
-      "A) Is a system of rules which a particular country or community recognizes as",
-      "B) regulating the actions of its members and which it may enforce by the imposition",
-      "C) of penalties.",
-      "D) Are moral principles that govern a person's behavior or the conducting of an activity. Any occupation/job/vocation that requires advanced expertise, self-regulation, and concerned service to the public good. It brings a high status socially and economically. Is a state or quality of being immoral."
+      "A) Are moral principles that govern a person’s behavior or the conducting of an activity.",
+      "B) Any occupation/job/vocation that requires advanced expertise, self-regulation and concerned service to the public good.",
+      "C) Is a the state or quality of being immoral.",
+      "D) Is a system of rules which a particular country or community recognizes as regulating the actions of its members..."
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Are moral principles that govern a person’s behavior or the conducting of an activity..",
     "unit": 4,
     "year": 2025,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1, PYQ 2025 Set 2",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1, PYQ 2025 Set 1, PYQ 2025 Set 2",
     "years": [
       2023,
       2024,
@@ -2760,19 +2741,24 @@ const PYQS = [
     ],
     "sources": [
       "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
       "PYQ 2024 Set 1",
+      "PYQ 2025 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_041",
+    "id": "pyq_040",
     "topic": "professional_ethics"
   },
   {
-    "question": "Moral autonomy is defined as:",
+    "question": "Moral autonomy is defined as -",
     "options": [
-      "A) Moral principles that govern a person's behavior or the conducting of an",
-      "B) activity.",
-      "C) Decisions and actions are exercised on the basis of moral concern for other",
-      "D) people and recognition of good moral reasons. The situations in which moral reasons come into conflict. The status of a professional implies certain attitudes or typical qualities that are expected of a professional. 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 15/17"
+      "A) Moral principles that govern a person’s behavior or the conducting of an activity.",
+      "B) The status of a professional which implies certain attitudes or typical qualities that re expected of a professional.",
+      "C) The situations in which moral reasons come into conflict.",
+      "D) Decisions and actions exercised on the basis of moral concern for other people and recognition of good moral reasons."
     ],
     "answer": "D",
     "explanation": "Correct answer is D) Decisions and actions exercised on the basis of moral concern for other people and recognition of good moral reasons..",
@@ -2791,47 +2777,22 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_042",
+    "id": "pyq_041",
     "topic": "e_commerce"
   },
   {
-    "question": "The doctrine of Double jeopardy is mentioned in Article?",
+    "question": "How long did the Constituent Assembly take to finally pass the Constitution?",
     "options": [
-      "A) 20",
-      "B) 15",
-      "C) 14",
-      "D) 16"
+      "A) About 6 months in 1949",
+      "B) About 2 years since Aug 15, 1947",
+      "C) Exactly a year since Nov 26, 1948",
+      "D) About 3 years since Dec 9, 1946"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
-    "unit": 1,
-    "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 3, PYQ 2024 Set 1",
-    "years": [
-      2023,
-      2024
-    ],
-    "sources": [
-      "PYQ 2023 Set 1A",
-      "PYQ 2023 Set 3",
-      "PYQ 2024 Set 1"
-    ],
-    "id": "pyq_043",
-    "topic": "goi_act_1935"
-  },
-  {
-    "question": "How long did the Constituent Assembly take to finally pass the",
-    "options": [
-      "A) Constitution?",
-      "B) About 3 years since Dec 9, 1946",
-      "C) About 2 years since Aug 15, 1947",
-      "D) Exactly a year since Nov 26, 1948 About 6 months in 1949"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) About 3 years since Dec 9, 1946.",
+    "answer": "D",
+    "explanation": "Correct answer is D) About 3 years since Dec 9, 1946.",
     "unit": 1,
     "year": 2025,
-    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2024 Set 1, PYQ 2025 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2024 Set 1, PYQ 2025 Set 1",
     "years": [
       2023,
       2024,
@@ -2840,23 +2801,24 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 1A",
       "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
       "PYQ 2023 Set 4",
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_044",
+    "id": "pyq_042",
     "topic": "constituent_assembly"
   },
   {
-    "question": "The Part II of the Constitution deals with:",
+    "question": "Part II of the Constitution deals with:",
     "options": [
-      "A) Tribunals",
-      "B) The Union and its Territory",
-      "C) Elections",
-      "D) Citizenship 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 16/17"
+      "A) The Union and its Territory",
+      "B) Citizenship",
+      "C) Tribunals",
+      "D) Elections"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Citizenship.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Citizenship.",
     "unit": 1,
     "year": 2024,
     "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
@@ -2868,19 +2830,19 @@ const PYQS = [
       "PYQ 2023 Set 1A",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_045",
+    "id": "pyq_043",
     "topic": "goi_act_1935"
   },
   {
-    "question": "The President can dissolve Lok Sabha at the advice/request of whom",
+    "question": "The President can dissolve Lok Sabha at the advice/request of whom of the following before the completion of the tenure?",
     "options": [
-      "A) of the following before the completion of the tenure?",
-      "B) At the advice of the Vice-President",
-      "C) At the written request of the members",
-      "D) At the written request of the Speaker of the Lok Sabha At the advice of the Prime Minister"
+      "A) At the written request of the members",
+      "B) At the advice of the Prime Minister",
+      "C) At the written request of the Speaker of the Lok Sabha",
+      "D) At the advice of the Vice-President"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) At the advice of the Prime Minister.",
+    "answer": "B",
+    "explanation": "Correct answer is B) At the advice of the Prime Minister.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1, PYQ 2025 Set 2",
@@ -2894,16 +2856,16 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_046",
+    "id": "pyq_044",
     "topic": "president"
   },
   {
     "question": "Data theft includes:",
     "options": [
-      "A) Without the permission of the person who is in charge of the computer, to",
-      "B) download, copy or extract any data, computer database or information from",
-      "C) computer.",
-      "D) Unauthorized attempts to bypass the security mechanisms of an information system or network. Form of fraud or cheating of another persons’ identity Use of information and communication technologies to support hostile behaviour"
+      "A) unauthorized attempts to bypass the security mechanisms of an information system or network.",
+      "B) use of information and communication technologies to support hostile behaviour",
+      "C) form of fraud or cheating of another persons’ identity",
+      "D) without the permission of the person who is in charge of the computer, to down- load, copy or extract any data, computer data base or information from computer."
     ],
     "answer": "D",
     "explanation": "Correct answer is D) without the permission of the person who is in charge of the computer, to down- load, copy or extract any data, computer data base or information from computer..",
@@ -2921,44 +2883,48 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_047",
+    "id": "pyq_045",
     "topic": "dpdpa_2023"
   },
   {
-    "question": "Which of the following is not a remedy for infringement of a patent?",
+    "question": "Which of the following is not a remedy for infringement of patent?",
     "options": [
-      "A) Asking the infringer to do community service",
+      "A) Injunction",
       "B) Damages",
-      "C) Injunction",
-      "D) Accounts of profit 11/8/24, 2:21 PM ESA - DEC 2023 - UL23CE111A (set- 1) 17/17"
+      "C) Asking the infringer to do community service",
+      "D) Accounts of profit"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Asking the infringer to do community service.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Asking the infringer to do community service.",
     "unit": 3,
     "year": 2024,
-    "source": "PYQ 2023 Set 1A, PYQ 2024 Set 1",
+    "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2024 Set 1",
     "years": [
       2023,
       2024
     ],
     "sources": [
       "PYQ 2023 Set 1A",
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
       "PYQ 2024 Set 1"
     ],
-    "id": "pyq_048",
+    "id": "pyq_046",
     "topic": "trademark"
   },
   {
-    "question": "Consider the following statements:",
+    "question": "Consider the following statements:\nI) Every promise is an agreement.\nII) Every agreement is a contract.\nIII) A contract which ceases to be enforceable by law becomes void.\nIV) A minor who is supplied necessaries is personally liable to pay for them.\nWhich of the statements given above are correct?",
     "options": [
-      "A) I) Every promise is an agreement.",
-      "B) II) Every agreement is a contract.",
-      "C) III) A contract which ceases to be enforceable by law becomes void.",
-      "D) IV) A minor who is supplied necessaries is personally liable to pay for them Which of the statements given above are correct? I, II and III. I and II only. II, III and IV. I and III only."
+      "A) I, II and III.",
+      "B) I and II only.",
+      "C) II, III and IV.",
+      "D) I and III only."
     ],
-    "answer": "A",
-    "explanation": "Correct answer is not explicitly matched in the question banks.",
-    "unit": 1,
+    "answer": "D",
+    "explanation": "Under the Indian Contract Act 1872, every promise/set of promises is an agreement (I). An agreement is only a contract if enforceable by law (so II is false). A contract that ceases to be enforceable becomes void (III). A minor's estate is liable for necessaries, but the minor is not personally liable (so IV is false). Thus, I and III are correct.",
+    "unit": 4,
     "year": 2025,
     "source": "PYQ 2023 Set 1A, PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2024 Set 1, PYQ 2025 Set 2",
     "years": [
@@ -2974,8 +2940,8 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_049",
-    "topic": "constitutional_history"
+    "id": "pyq_047",
+    "topic": "professional_ethics"
   },
   {
     "question": "A situation in which an engineer's loyalty and obligations may be compromised because of self-interests or other loyalties and obligations is called:",
@@ -3000,7 +2966,7 @@ const PYQS = [
       "PYQ 2024 Set 1",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_050",
+    "id": "pyq_048",
     "topic": "professional_ethics"
   },
   {
@@ -3023,44 +2989,46 @@ const PYQS = [
       "PYQ 2023 Set 1B",
       "PYQ 2023 Set 4"
     ],
-    "id": "pyq_051",
+    "id": "pyq_049",
     "topic": "right_to_privacy"
   },
   {
-    "question": "In which among the following parts of Constitution of India are",
+    "question": "In which among the following parts of Constitution of India are enshrined the Funda- mental Duties?",
     "options": [
-      "A) enshrined the Fundamental Duties?",
+      "A) Part III",
       "B) Part IIIA",
       "C) Part IVA",
-      "D) Part III Part IV"
+      "D) Part IV"
     ],
     "answer": "C",
     "explanation": "Correct answer is C) Part IVA.",
     "unit": 1,
     "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 1",
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 1",
     "years": [
       2023,
       2025
     ],
     "sources": [
       "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 2",
       "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_052",
+    "id": "pyq_050",
     "topic": "goi_act_1935"
   },
   {
-    "question": "Which of the following statement is true?",
+    "question": "Which of the following statements are true?\n1) Constitution of India does not accept strict separation of power\n2) Constitution of India does accept strict separation of power\n3) Constitution of India prescribes for independent judiciary\n4) Preamble of the Indian Constitution is enforceable in the court of law",
     "options": [
-      "A) 1) Constitution of India does not accept strict separation of power",
-      "B) 2) Constitution of India does accept strict separation of power",
-      "C) 3) Constitution of India prescribes for independent judiciary",
-      "D) 4) Preamble of the Indian Constitution is enforceable in the court of law 1,3,4 1,3 1,4,2 1,2,4 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 3/17"
+      "A) 1, 3 and 4",
+      "B) 1 and 3",
+      "C) 1, 4 and 2",
+      "D) 1, 2 and 4"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is not explicitly matched in the question banks.",
+    "answer": "B",
+    "explanation": "India does not accept strict separation of powers since the executive is a part of the legislature (1). However, the Constitution explicitly prescribes an independent judiciary (3). The Preamble is non-enforceable in courts. Thus, 1 and 3 are true.",
     "unit": 1,
     "year": 2023,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4",
@@ -3071,19 +3039,19 @@ const PYQS = [
       "PYQ 2023 Set 1B",
       "PYQ 2023 Set 4"
     ],
-    "id": "pyq_053",
+    "id": "pyq_051",
     "topic": "goi_act_1935"
   },
   {
     "question": "Justice, social, economic and political’ is enshrined in:",
     "options": [
-      "A) Preamble to the Constitution of India",
-      "B) Fundamental Rights in the Constitution of India",
-      "C) Writs issued by the Supreme Court of India",
+      "A) Fundamental Rights in the Constitution of India 4",
+      "B) Writs issued by the Supreme Court of India",
+      "C) Preamble to the Constitution of India",
       "D) Directive Principle of State Policy taken into account making enactments."
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Preamble to the Constitution of India.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Preamble to the Constitution of India.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
@@ -3096,19 +3064,18 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_054",
+    "id": "pyq_052",
     "topic": "preamble"
   },
   {
     "question": "The concept of Directive Principles has been borrowed from:",
     "options": [
-      "A) Canadian Constitution",
-      "B) Russian Constitution",
-      "C) Irish Constitution",
-      "D) American Constitution"
+      "A) Irish Constitution",
+      "B) Canadian Constitution",
+      "C) Russian Constitution American Constitution 3"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Irish Constitution.",
+    "answer": "A",
+    "explanation": "Correct answer is A) Irish Constitution.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
@@ -3121,40 +3088,16 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_055",
+    "id": "pyq_053",
     "topic": "dpsp"
-  },
-  {
-    "question": "Constitution of India was adopted on:",
-    "options": [
-      "A) 15 August, 1947",
-      "B) 26 November 1949",
-      "C) 26 January, 1950",
-      "D) 24 November 1950"
-    ],
-    "answer": "D",
-    "explanation": "Correct answer is D) 26th November 1949.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 3",
-      "PYQ 2023 Set 4"
-    ],
-    "id": "pyq_056",
-    "topic": "goi_act_1935"
   },
   {
     "question": "A Presidential proclamation can remain in force for:",
     "options": [
-      "A) Till the President revokes it",
-      "B) Three months",
+      "A) Three months",
+      "B) Two months",
       "C) Six months",
-      "D) Two months th th th th 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 5/17"
+      "D) Till the President revokes it"
     ],
     "answer": "C",
     "explanation": "Correct answer is C) Six months.",
@@ -3169,19 +3112,19 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2023 Set 4"
     ],
-    "id": "pyq_057",
+    "id": "pyq_054",
     "topic": "constitutional_history"
   },
   {
     "question": "When a financial emergency is proclaimed",
     "options": [
-      "A) Repayment of government debts will stop",
-      "B) Payment of salaries to public servants will be postponed",
-      "C) Salaries and allowances of any class of employees may be reduced",
-      "D) Union budget will not be presented"
+      "A) Union budget will not be presented",
+      "B) Salaries and allowances of any class of employees may be reduced",
+      "C) Repayment of government debts will stop",
+      "D) Payment of salaries to public servants will be postponed"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Salaries and allowances of any class of employees may be reduced.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Salaries and allowances of any class of employees may be reduced.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 1",
@@ -3194,16 +3137,16 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_058",
+    "id": "pyq_055",
     "topic": "preamble"
   },
   {
     "question": "The Indian President is",
     "options": [
       "A) Head of the State",
-      "B) De facto Head of the Parliament",
-      "C) De facto Head of the Coast Guard",
-      "D) Head of the Government"
+      "B) Head of the Government",
+      "C) De facto Head of the Parliament",
+      "D) De facto Head of the Coast Guard"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Head of the State.",
@@ -3220,19 +3163,19 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_059",
+    "id": "pyq_056",
     "topic": "president"
   },
   {
-    "question": "Which of the following is not a ground for disqualifying a member of",
+    "question": "Which of the following is not a ground for disqualifying a member of Parliament?",
     "options": [
-      "A) Parliament ?",
+      "A) If he is convicted and sentenced for 10 years imprisonment",
       "B) If he holds an office of profit",
-      "C) If he earns money from selling of any books",
-      "D) If he voluntarily gives up the citizenship of India If he is convicted and sentenced for 10 years imprisonment 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 6/17"
+      "C) If he voluntarily gives up the citizenship of India",
+      "D) If he earns money from selling of any books"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) If he earns money from selling of any books.",
+    "answer": "D",
+    "explanation": "Correct answer is D) If he earns money from selling of any books.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 1",
@@ -3245,16 +3188,16 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_060",
+    "id": "pyq_057",
     "topic": "president"
   },
   {
-    "question": "The Parliament of India is consisted of _______:",
+    "question": "The Parliament of India is consisted of",
     "options": [
       "A) Lok Sabha and Rajya Sabha",
       "B) Lok Sabha, Rajya Sabha and President",
-      "C) Lok Sabha, Rajya Sabha and Council of Ministers",
-      "D) Lok Sabha, Rajya Sabha, President and Prime Minister"
+      "C) Lok Sabha, Rajya Sabha, President and Prime Minister",
+      "D) Lok Sabha, Rajya Sabha and Council of Ministers"
     ],
     "answer": "B",
     "explanation": "Correct answer is B) Lok Sabha, Rajya Sabha and President.",
@@ -3271,20 +3214,95 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_061",
+    "id": "pyq_058",
     "topic": "president"
   },
   {
-    "question": "How many members of Rajya Sabha are nominated by President of",
+    "question": "It the President wants to resign; he has to address the letter of resignation to the:",
     "options": [
-      "A) India?",
-      "B) 15",
-      "C) 2",
-      "D) 10 12"
+      "A) Prime Minister",
+      "B) Vice-President",
+      "C) Speaker",
+      "D) Chief Justice of India"
+    ],
+    "answer": "B",
+    "explanation": "Correct answer is B) Vice-President.",
+    "unit": 2,
+    "year": 2025,
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2025 Set 2",
+    "years": [
+      2023,
+      2025
+    ],
+    "sources": [
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
+      "PYQ 2023 Set 4",
+      "PYQ 2025 Set 2"
+    ],
+    "id": "pyq_059",
+    "topic": "president"
+  },
+  {
+    "question": "Judges of High Courts are appointed by the",
+    "options": [
+      "A) President.",
+      "B) Governor.",
+      "C) Chief Justice of India",
+      "D) Prime minister on the advice of Council of ministers"
     ],
     "answer": "A",
-    "explanation": "Correct answer is A) 12.",
+    "explanation": "Correct answer is A) President..",
     "unit": 2,
+    "year": 2025,
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
+    "years": [
+      2023,
+      2025
+    ],
+    "sources": [
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 4",
+      "PYQ 2025 Set 2"
+    ],
+    "id": "pyq_060",
+    "topic": "president"
+  },
+  {
+    "question": "The Chief Justice and other Judges of the High Court are appointed by the",
+    "options": [
+      "A) Chief Justice of the Supreme Court",
+      "B) Chief Minister of the concerned state",
+      "C) Governor of the concerned state",
+      "D) President"
+    ],
+    "answer": "D",
+    "explanation": "Correct answer is D) President.",
+    "unit": 2,
+    "year": 2023,
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2023 Backlog",
+    "years": [
+      2023
+    ],
+    "sources": [
+      "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog"
+    ],
+    "id": "pyq_061",
+    "topic": "supreme_court"
+  },
+  {
+    "question": "Which of the following is not done by cyber criminals?",
+    "options": [
+      "A) Unauthorized account access",
+      "B) Mass attack using Trojans as botnets",
+      "C) Email spoofing and spamming",
+      "D) Report vulnerability in any system"
+    ],
+    "answer": "D",
+    "explanation": "Correct answer is D) Report vulnerability in any system.",
+    "unit": 3,
     "year": 2023,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4",
     "years": [
@@ -3295,139 +3313,45 @@ const PYQS = [
       "PYQ 2023 Set 4"
     ],
     "id": "pyq_062",
-    "topic": "president"
-  },
-  {
-    "question": "It the President wants to resign; he has to address the letter of",
-    "options": [
-      "A) resignation to the:",
-      "B) Speaker",
-      "C) PrimeMinister",
-      "D) Vice-President Chief Justice of India 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 7/17"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Vice-President.",
-    "unit": 2,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_063",
-    "topic": "president"
-  },
-  {
-    "question": "Judges of High Courts are appointed by the",
-    "options": [
-      "A) Governor.",
-      "B) President.",
-      "C) Chief Justice of India",
-      "D) Prime minister on the advice of Council of ministers"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) President..",
-    "unit": 2,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_064",
-    "topic": "president"
-  },
-  {
-    "question": "The Chief Justice and other Judges of the High Court are appointed by",
-    "options": [
-      "A) the",
-      "B) Governor of the concerned state",
-      "C) Chief Minister of the concerned state",
-      "D) Chief Justice of the Supreme Court President"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) President.",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4"
-    ],
-    "id": "pyq_065",
-    "topic": "supreme_court"
-  },
-  {
-    "question": "Which of the following is not done by cyber criminals?",
-    "options": [
-      "A) Unauthorized account access",
-      "B) Mass attack using Trojans as botnets",
-      "C) Report vulnerability in any system",
-      "D) Email spoofing and spamming 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 8/17"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Report vulnerability in any system.",
-    "unit": 3,
-    "year": 2023,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4"
-    ],
-    "id": "pyq_066",
     "topic": "cyber_crimes"
   },
   {
-    "question": "-------- are often delivered to a PC through an email attachment and",
+    "question": "are often delivered to a PC through an email attachment and are often designed to do harm.",
     "options": [
-      "A) are often designed to do harm.",
-      "B) Portals",
-      "C) Virus",
-      "D) Spam Email"
+      "A) Spam",
+      "B) Email",
+      "C) Portals",
+      "D) Virus"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Virus.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Virus.",
     "unit": 3,
     "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 1",
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 1",
     "years": [
       2023,
       2025
     ],
     "sources": [
       "PYQ 2023 Set 1B",
+      "PYQ 2023 Set 3",
       "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_067",
+    "id": "pyq_063",
     "topic": "geographical_indications"
   },
   {
     "question": "Exclusive right granted for an invention is called",
     "options": [
-      "A) Geographical Indication",
-      "B) Patent",
-      "C) Copyright",
+      "A) Copyright",
+      "B) Geographical Indication",
+      "C) Patent",
       "D) Trademark"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Patent.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Patent.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2025 Set 2",
@@ -3441,60 +3365,8 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_068",
+    "id": "pyq_064",
     "topic": "patents"
-  },
-  {
-    "question": "Which of the following is not a remedy for infringement of patent?",
-    "options": [
-      "A) Damages",
-      "B) Asking the infringer to do community service",
-      "C) Accounts of profit",
-      "D) Injunction"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Asking the infringer to do community service.",
-    "unit": 3,
-    "year": 2023,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 2",
-      "PYQ 2023 Set 4",
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_069",
-    "topic": "trademark"
-  },
-  {
-    "question": "Copyright is not available to which of the following work?",
-    "options": [
-      "A) Medicine",
-      "B) Original Literary Work",
-      "C) Cinematography films",
-      "D) Original Dramatic work 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 10/17"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Medicine.",
-    "unit": 3,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 3",
-      "PYQ 2023 Set 4",
-      "PYQ 2023 Backlog",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_070",
-    "topic": "copyright"
   },
   {
     "question": "Any indication which defines goods as originating in the territory of a country, or a region/locality in that territory, where a given quality, reputation or other characteristic is essentially attributable to its geographical origin is called:",
@@ -3520,7 +3392,7 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_071",
+    "id": "pyq_065",
     "topic": "geographical_indications"
   },
   {
@@ -3547,19 +3419,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_072",
+    "id": "pyq_066",
     "topic": "geographical_indications"
   },
   {
     "question": "What does not fall under the ambit of Identity Theft?",
     "options": [
-      "A) Making authorized transactions",
-      "B) Illegally obtaining the personal or financial information of another person",
-      "C) Fraudulent actions",
-      "D) Making unauthorized transactions and purchases 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 11/17"
+      "A) Illegally obtaining the personal or financial information of another person",
+      "B) Fraudulent actions",
+      "C) Making authorized transactions",
+      "D) Making unauthorized transactions and purchases"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Making authorized transactions.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Making authorized transactions.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 1",
@@ -3572,7 +3444,7 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_073",
+    "id": "pyq_067",
     "topic": "intellectual_property"
   },
   {
@@ -3580,11 +3452,11 @@ const PYQS = [
     "options": [
       "A) Shopping can take place anywhere",
       "B) Customer Convenience is enhanced",
-      "C) Shopping costs are reduced",
-      "D) Customer money can be stolen"
+      "C) Customer money can be stolen",
+      "D) Shopping costs are reduced"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) Customer money can be stolen.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Customer money can be stolen.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2025 Set 2",
@@ -3598,69 +3470,44 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_074",
+    "id": "pyq_068",
     "topic": "intellectual_property"
   },
   {
-    "question": "Specific Performance of the contract is dealt under:",
+    "question": "Which of the following is not a remedy available for breach of a contract?",
     "options": [
-      "A) Civil Procedure Code",
-      "B) Indian Contract Act",
-      "C) Specific Relief Act",
-      "D) IT Act 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 12/17"
+      "A) Damages;",
+      "B) specific performance of the contract; and",
+      "C) injunction",
+      "D) Criminal prosecution"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Specific Relief Act.",
-    "unit": 3,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 2",
-      "PYQ 2023 Set 4",
-      "PYQ 2023 Backlog",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_075",
-    "topic": "intellectual_property"
-  },
-  {
-    "question": "Which of the following is not a remedy available for breach of a",
-    "options": [
-      "A) contract?",
-      "B) specific performance of the contract",
-      "C) Damages",
-      "D) Criminal prosecution injunction"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Criminal prosecution.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Criminal prosecution.",
     "unit": 3,
     "year": 2023,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4",
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog",
     "years": [
       2023
     ],
     "sources": [
       "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4"
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog"
     ],
-    "id": "pyq_076",
+    "id": "pyq_069",
     "topic": "intellectual_property"
   },
   {
     "question": "Which one of the following elements is not necessary for a contract?",
     "options": [
-      "A) Reasonable terms and conditions.",
-      "B) Competent parties",
+      "A) Competent parties",
+      "B) Reasonable terms and conditions.",
       "C) Free consent",
-      "D) Lawful consideration"
+      "D) Lawful consideration 28"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Reasonable terms and conditions..",
+    "answer": "B",
+    "explanation": "Correct answer is B) Reasonable terms and conditions..",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 1",
@@ -3675,43 +3522,16 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_077",
+    "id": "pyq_070",
     "topic": "intellectual_property"
-  },
-  {
-    "question": "Environmental ethics is concerned with which of the following issues?",
-    "options": [
-      "A) Promote the degradation of environment.",
-      "B) Ensure protection of the environment.",
-      "C) Destroy the wildlife and increase man-animal conflict.",
-      "D) Speed up the exploitation of the natural resources, so that the future generation cant survive."
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Are moral principles that govern a person’s behavior or the conducting of an activity..",
-    "unit": 4,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 3",
-      "PYQ 2023 Set 4",
-      "PYQ 2023 Backlog",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_078",
-    "topic": "professional_ethics"
   },
   {
     "question": "Moral autonomy is also referred to as-",
     "options": [
       "A) self-determinant",
-      "B) Confused",
-      "C) Dependent",
-      "D) Conflicted 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 14/17"
+      "B) Dependent",
+      "C) Conflicted",
+      "D) Confused"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) self-determinant.",
@@ -3729,30 +3549,8 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_079",
+    "id": "pyq_071",
     "topic": "e_commerce"
-  },
-  {
-    "question": "Which of the following is true with respect to the scope of",
-    "options": [
-      "A) engineering?"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) It is the part of the Constitution.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_080",
-    "topic": "goi_act_1935"
   },
   {
     "question": "Which of the following is true with respect to the scope of engineering?\n\ni. Ethics of the workplace which involves the co-workers and employees in an organization.\nii. Ethics related to the product or work which involves the transportation, warehousing, and use, besides the safety of the end product and the environment outside the factory.",
@@ -3777,44 +3575,19 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_081",
-    "topic": "professional_ethics"
-  },
-  {
-    "question": "Ethics related to the product or work which involves the",
-    "options": [
-      "A) transportation, warehousing, and use, besides the safety of the end",
-      "B) product and the environment outside the factory.",
-      "C) Only i",
-      "D) Both i and ii Neither i nor ii Only ii"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Are moral principles that govern a person’s behavior or the conducting of an activity..",
-    "unit": 4,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4",
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_082",
+    "id": "pyq_072",
     "topic": "professional_ethics"
   },
   {
     "question": "Corporate Social Responsibility is equally important to:",
     "options": [
-      "A) Company",
-      "B) Community and Country",
-      "C) Community and society",
-      "D) Community"
+      "A) Community",
+      "B) Company",
+      "C) Community and Country",
+      "D) Community and society"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Community and society.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Community and society.",
     "unit": 4,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2023 Backlog, PYQ 2025 Set 2",
@@ -3829,19 +3602,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_083",
+    "id": "pyq_073",
     "topic": "professional_ethics"
   },
   {
-    "question": "Ethics is a ----------------------- science.",
+    "question": "Ethics is a science.",
     "options": [
-      "A) Normative",
-      "B) Theoretical",
-      "C) Positive",
-      "D) Negative 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 15/17"
+      "A) Positive",
+      "B) Negative",
+      "C) Normative",
+      "D) Theoretical"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Normative.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Normative.",
     "unit": 4,
     "year": 2023,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog",
@@ -3854,19 +3627,19 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_084",
+    "id": "pyq_074",
     "topic": "professional_ethics"
   },
   {
-    "question": "Most individuals are familiar with which form of E‐commerce.",
+    "question": "Most individuals are familiar with which form of E-commerce.",
     "options": [
-      "A) C2C",
-      "B) C2B",
-      "C) B2B",
-      "D) B2C"
+      "A) B2B",
+      "B) B2C",
+      "C) C2B",
+      "D) C2C"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) B2C.",
+    "answer": "B",
+    "explanation": "Correct answer is B) B2C.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 3, PYQ 2023 Set 4, PYQ 2025 Set 1",
@@ -3880,19 +3653,19 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_085",
+    "id": "pyq_075",
     "topic": "intellectual_property"
   },
   {
     "question": "Who appoints the Prime Minister of India?",
     "options": [
-      "A) President",
-      "B) Lok Sabha",
+      "A) Lok Sabha",
+      "B) President",
       "C) Parliament",
       "D) Citizens of India"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) President.",
+    "answer": "B",
+    "explanation": "Correct answer is B) President.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 2",
@@ -3905,90 +3678,41 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_086",
+    "id": "pyq_076",
     "topic": "supreme_court"
   },
   {
-    "question": "Chief Minister of a State is responsible to",
+    "question": "Equal pay for equal work for both men and women has been laid down in the Indian Constitution as one of the",
     "options": [
-      "A) Rajya Sabha",
-      "B) Legislative Assembly",
-      "C) Prime Minister",
-      "D) Governor 11/11/24, 11:37 AM ESA -JAN 2024 - UL23CE111A (set- 1) 16/17"
+      "A) Fundamental Rights",
+      "B) Fundamental Duties.",
+      "C) Guidelines in the Preamble.",
+      "D) Directive Principles of State Policy."
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Legislative Assembly.",
-    "unit": 2,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2025 Set 1",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 2",
-      "PYQ 2023 Set 4",
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_087",
-    "topic": "president"
-  },
-  {
-    "question": "Assertion: -The Chapter on the Fundamental Rights was framed upon",
-    "options": [
-      "A) the model of American Constitution.",
-      "B) Reason:-Fundamental rights are enforceable.",
-      "C) Both A and R are true and R is the correct explanation of A",
-      "D) Both A and R are true but R is not the correct explanation of A A is false but R is true A is true but R is false"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4, PYQ 2025 Set 1",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4",
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_088",
-    "topic": "fundamental_duties"
-  },
-  {
-    "question": "Equal pay for equal work for both men and women has been laid",
-    "options": [
-      "A) down in the Indian Constitution as one of the",
-      "B) Directive Principles of StatePolicy.",
-      "C) FundamentalDuties.",
-      "D) FundamentalRights. Guidelines in thePreamble."
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Directive Principles of State Policy..",
+    "answer": "D",
+    "explanation": "Correct answer is D) Directive Principles of State Policy..",
     "unit": 1,
     "year": 2023,
-    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 4",
+    "source": "PYQ 2023 Set 1B, PYQ 2023 Set 2, PYQ 2023 Set 4, PYQ 2023 Backlog",
     "years": [
       2023
     ],
     "sources": [
       "PYQ 2023 Set 1B",
-      "PYQ 2023 Set 4"
+      "PYQ 2023 Set 2",
+      "PYQ 2023 Set 4",
+      "PYQ 2023 Backlog"
     ],
-    "id": "pyq_089",
-    "topic": "secularism"
+    "id": "pyq_077",
+    "topic": "goi_act_1935"
   },
   {
-    "question": "To gradually change, or change someone or something, from one",
+    "question": "To gradually change, or change someone or something, from one thing to another is called?",
     "options": [
-      "A) thing to another is called?",
-      "B) Phishing",
-      "C) Grooming",
-      "D) Morphing Obscenity"
+      "A) Morphing 24",
+      "B) Grooming",
+      "C) Phishing",
+      "D) Obscenity"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Morphing 24.",
@@ -4004,42 +3728,19 @@ const PYQS = [
       "PYQ 2023 Set 4",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_090",
-    "topic": "cyber_crimes"
+    "id": "pyq_078",
+    "topic": "trademark"
   },
   {
-    "question": "In which among the following parts of Constitution of India are enshrined the",
+    "question": "Which part of the Indian Constitution reflects the ideology of Gandhi",
     "options": [
-      "A) Fundamental Duties?",
-      "B) Part IIIA",
-      "C) Part IV",
-      "D) Part IVA Part III"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Part IVA.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2",
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_091",
-    "topic": "goi_act_1935"
-  },
-  {
-    "question": "Which part of the Indian Constitution reflects the ideology of Gandhian",
-    "options": [
-      "A) Directive Principles",
+      "A) Fundamental Rights",
       "B) Fundamental Duties",
-      "C) Fundamental Rights",
+      "C) Directive Principles",
       "D) Preamble"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Directive Principles.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Directive Principles.",
     "unit": 1,
     "year": 2023,
     "source": "PYQ 2023 Set 2",
@@ -4049,64 +3750,43 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_092",
+    "id": "pyq_079",
     "topic": "goi_act_1935"
   },
   {
-    "question": "Equal pay for equal work for both men and women has been laid down in the",
+    "question": "The terms: ’Secular, Socialist and Integrity’ were added to the Preamble in",
     "options": [
-      "A) Indian Constitution as one of the",
-      "B) Guidelines in the Preamble.",
-      "C) Fundamental Duties.",
-      "D) Fundamental Rights. Directive Principles of State Policy."
+      "A) 1979",
+      "B) 1977",
+      "C) 1976",
+      "D) 1975"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Directive Principles of State Policy..",
+    "answer": "C",
+    "explanation": "Correct answer is C) 1976.",
     "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
+    "year": 2025,
+    "source": "PYQ 2023 Set 2, PYQ 2025 Set 1",
     "years": [
-      2023
+      2023,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 2",
-      "PYQ 2023 Backlog"
+      "PYQ 2025 Set 1"
     ],
-    "id": "pyq_093",
-    "topic": "secularism"
-  },
-  {
-    "question": "The terms: ‘Secular, Socialist and Integrity’ were added to the Preamble in",
-    "options": [
-      "A) 1979",
-      "B) 1976",
-      "C) 1977",
-      "D) 1975"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) 1976.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_094",
+    "id": "pyq_080",
     "topic": "preamble"
   },
   {
-    "question": "The correct nomenclature of India according to the Preamble is",
+    "question": "The correct nomenclature of India according to the Preamble is:",
     "options": [
       "A) Sovereign, Secular, Democratic Republic",
-      "B) Sovereign Socialist Secular Democratic Republic",
-      "C) Sovereign Secular Socialist Democracy",
-      "D) Sovereign, Democratic Republic"
+      "B) Sovereign, Democratic Republic",
+      "C) Sovereign Socialist Secular Democratic Republic",
+      "D) Sovereign Secular Socialist Democracy 10"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Sovereign Socialist Secular Democratic Republic.",
+    "answer": "C",
+    "explanation": "Correct answer is C) Sovereign Socialist Secular Democratic Republic.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2023 Set 2, PYQ 2023 Backlog, PYQ 2025 Set 1",
@@ -4119,19 +3799,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_095",
+    "id": "pyq_081",
     "topic": "goi_act_1935"
   },
   {
     "question": "Welfare State is well defined in which of the following?",
     "options": [
-      "A) Fundamental Rights",
-      "B) Schedule VII of the Constitution",
-      "C) Directive Principles",
-      "D) Indian Preamble"
+      "A) Indian Preamble",
+      "B) Directive Principles",
+      "C) Schedule VII of the Constitution",
+      "D) Fundamental Rights"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Directive Principles.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Directive Principles.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2023 Set 2, PYQ 2023 Backlog, PYQ 2025 Set 1",
@@ -4144,42 +3824,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_096",
+    "id": "pyq_082",
     "topic": "dpsp"
-  },
-  {
-    "question": "No person can be employed in factories or mines unless he is above the age of",
-    "options": [
-      "A) 20years.",
-      "B) 12years.",
-      "C) 18years.",
-      "D) 14years."
-    ],
-    "answer": "D",
-    "explanation": "Correct answer is D) 14 years.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2",
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_097",
-    "topic": "goi_act_1935"
   },
   {
     "question": "Which of the following is enforceable in a court of law?",
     "options": [
-      "A) Fundamental Duties",
-      "B) Directive Principles",
-      "C) Fundamental Rights",
+      "A) Fundamental Rights",
+      "B) Fundamental Duties",
+      "C) Directive Principles",
       "D) Preamble"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Fundamental Rights.",
+    "answer": "A",
+    "explanation": "Correct answer is A) Fundamental Rights.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2023 Set 2, PYQ 2023 Backlog, PYQ 2025 Set 1",
@@ -4192,19 +3849,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_098",
+    "id": "pyq_083",
     "topic": "goi_act_1935"
   },
   {
     "question": "The tenure of the Council of Ministers lasts:",
     "options": [
       "A) As long as it enjoys the support of the electorate",
-      "B) Six years",
-      "C) As long as it enjoys the support of the majority of the members of the Parliament",
-      "D) Five year and as long as it enjoys the support of the majority of the members of the Parliament"
+      "B) As long as it enjoys the support of the majority of the members of the Parliament",
+      "C) Six years",
+      "D) Five years."
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) As long as it enjoys the support of the majority of the members of the Parliament.",
+    "answer": "B",
+    "explanation": "Correct answer is B) As long as it enjoys the support of the majority of the members of the Parliament.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2023 Set 2, PYQ 2025 Set 2",
@@ -4216,19 +3873,19 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_099",
+    "id": "pyq_084",
     "topic": "president"
   },
   {
     "question": "The maximum strength of the Rajya Sabha is:",
     "options": [
-      "A) 240",
+      "A) 250",
       "B) 245",
-      "C) 200",
-      "D) 250"
+      "C) 240",
+      "D) 200"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) 250.",
+    "answer": "A",
+    "explanation": "Correct answer is A) 250.",
     "unit": 2,
     "year": 2023,
     "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
@@ -4239,63 +3896,19 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_100",
+    "id": "pyq_085",
     "topic": "parliament"
   },
   {
-    "question": "In order to be elected a member of Council of States a person must not be less",
+    "question": "In order to be elected a member of Council of States a person must not be less than:",
     "options": [
-      "A) than:",
+      "A) 30 years.",
       "B) 25 years",
-      "C) 30 years.",
-      "D) 35 years 21 years"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) 30 years..",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_101",
-    "topic": "president"
-  },
-  {
-    "question": "Who in empowered to suspend the operation of the Fundamental Rights?",
-    "options": [
-      "A) President",
-      "B) Supreme Court",
-      "C) The Cabinet",
-      "D) Parliament"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_102",
-    "topic": "dpsp"
-  },
-  {
-    "question": "How many members of Rajya Sabha are nominated by President of India?",
-    "options": [
-      "A) 12",
-      "B) 10",
-      "C) 2",
-      "D) 15"
+      "C) 21 years",
+      "D) 35 years"
     ],
     "answer": "A",
-    "explanation": "Correct answer is A) 12.",
+    "explanation": "Correct answer is A) 30 years..",
     "unit": 2,
     "year": 2023,
     "source": "PYQ 2023 Set 2",
@@ -4305,16 +3918,16 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_103",
+    "id": "pyq_086",
     "topic": "president"
   },
   {
     "question": "The President of India can proclaim National Emergency",
     "options": [
       "A) On the advice of the Council of Ministers headed by the Prime Minister",
-      "B) On the advice of the leader of the ruling party or set of parties in power",
-      "C) At his own discretion",
-      "D) On the advice of the Speaker"
+      "B) On the advice of the Speaker",
+      "C) On the advice of the leader of the ruling party or set of parties in power",
+      "D) At his own discretion 9"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) On the advice of the Council of Ministers headed by the Prime Minister.",
@@ -4329,19 +3942,19 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_104",
+    "id": "pyq_087",
     "topic": "goi_act_1935"
   },
   {
-    "question": "How many times has the President declared financial emergency in the country",
+    "question": "How many times has the President declared financial emergency in the country so far?",
     "options": [
-      "A) so far?",
-      "B) Never",
-      "C) Once",
-      "D) Thrice Twice"
+      "A) Once",
+      "B) Twice",
+      "C) Thrice",
+      "D) Never"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Never.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Never.",
     "unit": 1,
     "year": 2023,
     "source": "PYQ 2023 Set 2",
@@ -4351,38 +3964,16 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_105",
+    "id": "pyq_088",
     "topic": "federalism"
-  },
-  {
-    "question": "Which of the following Article deals with amendment of Indian Constitution:",
-    "options": [
-      "A) Article 368",
-      "B) Article 367",
-      "C) Article 362",
-      "D) Article 363"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_106",
-    "topic": "goi_act_1935"
   },
   {
     "question": "Hacking means:",
     "options": [
-      "A) use of information and communication technologies to support deliberate, repeated and",
-      "B) hostile behavior",
-      "C) without the permission of the owner to download computer data.",
-      "D) a form of fraud or cheating of another persons’ identity in which someone pretends to be someone else by assuming that person’s identity. unauthorized attempts to bypass the security mechanisms of an information system or network."
+      "A) unauthorized attempts to bypass the security mechanisms of an information system 22 or network.",
+      "B) use of information and communication technologies to support deliberate, repeated and hostile behavior",
+      "C) a form of fraud or cheating of another persons’ identity in which someone pretends to be someone else by assuming that person’s identity.",
+      "D) without the permission of the owner to download computer data."
     ],
     "answer": "A",
     "explanation": "Correct answer is A) unauthorized attempts to bypass the security mechanisms of an information system 22 or network..",
@@ -4398,7 +3989,7 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_107",
+    "id": "pyq_089",
     "topic": "cyber_crimes"
   },
   {
@@ -4424,16 +4015,16 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_108",
+    "id": "pyq_090",
     "topic": "cyber_crimes"
   },
   {
     "question": "Which is the landmark judgment of Cyber bullying/harassment in India?",
     "options": [
-      "A) Shreya Singhal v. UOI",
-      "B) UOI v. Shreya Singhal",
-      "C) Shreyas Singhal v. UOI",
-      "D) State of Bihar v. Shreya Singhal"
+      "A) Shreyas Singhal v. UOI",
+      "B) State of Bihar v. Shreya Singhal",
+      "C) Shreya Singhal v. UOI",
+      "D) UOI v. Shreya Singhal"
     ],
     "answer": "C",
     "explanation": "Correct answer is C) Shreya Singhal v. UOI.",
@@ -4446,7 +4037,7 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_109",
+    "id": "pyq_091",
     "topic": "cyber_crimes"
   },
   {
@@ -4470,65 +4061,19 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_110",
+    "id": "pyq_092",
     "topic": "geographical_indications"
   },
   {
-    "question": "The set of exclusive rights granted to the author or creator of an original work,",
+    "question": "In a C2C Business model, the website",
     "options": [
-      "A) including the right to copy, distribute and adapt the work is called",
-      "B) Patent",
-      "C) Trademark",
-      "D) Copyright Industrial design"
+      "A) wants to sell the product",
+      "B) wants to buy the product",
+      "C) places advertisements",
+      "D) receives products"
     ],
     "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_111",
-    "topic": "goi_act_1935"
-  },
-  {
-    "question": "Patent is granted for",
-    "options": [
-      "A) Life time",
-      "B) 10 years",
-      "C) 15 years",
-      "D) 20 years"
-    ],
-    "answer": "D",
-    "explanation": "Correct answer is D) 20 years.",
-    "unit": 3,
-    "year": 2025,
-    "source": "PYQ 2023 Set 2, PYQ 2025 Set 1",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 2",
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_112",
-    "topic": "patents"
-  },
-  {
-    "question": "In a C2C Business model, the website _______",
-    "options": [
-      "A) receives products",
-      "B) places advertisements",
-      "C) wants to buy the product",
-      "D) wants to sell the product"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) places advertisements.",
+    "explanation": "Correct answer is C) places advertisements.",
     "unit": 3,
     "year": 2023,
     "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
@@ -4539,16 +4084,16 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_113",
+    "id": "pyq_093",
     "topic": "it_act_2000"
   },
   {
-    "question": "Which of the following is not a disadvantage of E-Commerce?",
+    "question": "Which of the following is a disadvantage of E-Commerce?",
     "options": [
-      "A) The technology reaches Commerce is enabled across cultural and across national",
-      "B) boundaries, around the earth.",
-      "C) Hackers attempting to steal customer information or disrupt the site",
-      "D) E-commerce de-personalizes shopping A server containing customer information is stolen."
+      "A) Privacy of e-transactions is not guaranteed",
+      "B) Expensive for small businesses",
+      "C) Security of internet is not very good",
+      "D) All of the above"
     ],
     "answer": "D",
     "explanation": "Correct answer is D) All of the above.",
@@ -4564,15 +4109,15 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_114",
+    "id": "pyq_094",
     "topic": "intellectual_property"
   },
   {
     "question": "PKI stands for:",
     "options": [
       "A) Public Knowledge Interface",
-      "B) Private Key Infrastructure",
-      "C) Private Knowledge Interface",
+      "B) Private Knowledge Interface",
+      "C) Private Key Infrastructure",
       "D) Public Key Infrastructure"
     ],
     "answer": "D",
@@ -4587,39 +4132,41 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_115",
+    "id": "pyq_095",
     "topic": "intermediary_liability"
   },
   {
-    "question": "Authentication of any electronic record by a subscriber by means of the",
+    "question": "Authentication of any electronic record by a subscriber by means of the electronic technique specified in the _______ schedule of the IT Act and includes digital signature.",
     "options": [
-      "A) electronic technique specified in the _______ schedule and includes digital",
-      "B) signature.",
-      "C) Second",
-      "D) First Fourth Third"
+      "A) Second",
+      "B) First",
+      "C) Fourth",
+      "D) Third"
     ],
     "answer": "A",
-    "explanation": "Correct answer is not explicitly matched in the question banks.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
+    "explanation": "Section 3 and 3A of the IT Act specify that electronic records can be authenticated using electronic signatures and techniques specified in the Second Schedule.",
+    "unit": 3,
+    "year": 2025,
+    "source": "PYQ 2023 Set 2, PYQ 2023 Backlog, PYQ 2025 Set 2",
     "years": [
-      2023
+      2023,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 2",
-      "PYQ 2023 Backlog"
+      "PYQ 2023 Backlog",
+      "PYQ 2025 Set 2"
     ],
-    "id": "pyq_116",
-    "topic": "goi_act_1935"
+    "id": "pyq_096",
+    "topic": "it_act_2000"
   },
   {
     "question": "PKI is certified by",
     "options": [
       "A) Certificate Authority",
       "B) PKI Authority",
-      "C) ISP",
-      "D) Central Government"
+      "C) Central Government",
+      "D) ISP"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Certificate Authority.",
@@ -4633,31 +4180,8 @@ const PYQS = [
       "PYQ 2023 Set 2",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_117",
+    "id": "pyq_097",
     "topic": "geographical_indications"
-  },
-  {
-    "question": "Which of the following is not a remedy available for breach of a contract?",
-    "options": [
-      "A) specific performance of the contract",
-      "B) Damages",
-      "C) Criminal prosecution",
-      "D) injunction"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Criminal prosecution.",
-    "unit": 3,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2, PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2",
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_118",
-    "topic": "intellectual_property"
   },
   {
     "question": "Whistleblowing refers to the act of organization members disclosing information on illegal, illicit, or unethical practices within the organization to internal or external entities.",
@@ -4681,19 +4205,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_119",
+    "id": "pyq_098",
     "topic": "professional_ethics"
   },
   {
     "question": "Why should regular inspections of the workplace take place?",
     "options": [
-      "A) To check that all staff are present and correct.",
-      "B) To prepare for a visit from concerned employer.",
-      "C) To check whether the working environment is safe",
-      "D) To check everyone is doing their job"
+      "A) To check whether the working environment is safe",
+      "B) To check everyone is doing their job",
+      "C) To prepare for a visit from concerned employer.",
+      "D) To check that all staff are present and correct."
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) To check whether the working environment is safe.",
+    "answer": "A",
+    "explanation": "Correct answer is A) To check whether the working environment is safe.",
     "unit": 4,
     "year": 2025,
     "source": "PYQ 2023 Set 2, PYQ 2023 Backlog, PYQ 2025 Set 1",
@@ -4706,19 +4230,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_120",
+    "id": "pyq_099",
     "topic": "professional_ethics"
   },
   {
     "question": "Three major characteristics of a profession are:",
     "options": [
-      "A) Efficiency, Economic growth, Code of ethics",
-      "B) Public Good, legal correctness, Personal efficiency",
-      "C) Self care, Technical skill, Norms of behavior",
-      "D) Advanced knowledge, Self-Regulation, Public Good"
+      "A) Advanced knowledge, Self-Regulation, Public Good",
+      "B) Efficiency, Economic growth, Code of ethics",
+      "C) Public Good, legal correctness, Personal efficiency",
+      "D) Self care, Technical skill, Norms of behavior"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) Advanced knowledge, Self-Regulation, Public Good.",
+    "answer": "A",
+    "explanation": "Correct answer is A) Advanced knowledge, Self-Regulation, Public Good.",
     "unit": 4,
     "year": 2023,
     "source": "PYQ 2023 Set 2",
@@ -4728,58 +4252,14 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_121",
-    "topic": "professional_ethics"
-  },
-  {
-    "question": "Promoting what is good for oneself without caring societal relationships can be",
-    "options": [
-      "A) termed ___",
-      "B) Moral Authority",
-      "C) Ethical Egoism",
-      "D) Self Esteem Self control"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Ethical Egoism.",
-    "unit": 4,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_122",
-    "topic": "e_commerce"
-  },
-  {
-    "question": "A written statement of policies and principles that guides the behavior of all",
-    "options": [
-      "A) employees is called:",
-      "B) Code of Ethics",
-      "C) Ethics and Behavior code",
-      "D) Word of Ethics Company’s Code"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Code of Ethics.",
-    "unit": 4,
-    "year": 2023,
-    "source": "PYQ 2023 Set 2",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 2"
-    ],
-    "id": "pyq_123",
+    "id": "pyq_100",
     "topic": "professional_ethics"
   },
   {
     "question": "Two approaches to environmental ethics are:",
     "options": [
-      "A) Nature Centric and Industry Centric",
-      "B) Nature Centric and Human Centric",
+      "A) Nature Centric and Human Centric 32",
+      "B) Nature Centric and Industry Centric",
       "C) Human Centric and Eco Centric",
       "D) Human Centric and Environment Centric"
     ],
@@ -4794,16 +4274,16 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_124",
+    "id": "pyq_101",
     "topic": "professional_ethics"
   },
   {
-    "question": "_________ aims to maximize good consequences for human beings",
+    "question": "aims to maximize good consequences for human beings",
     "options": [
       "A) Utilitarianism",
       "B) Environmentalism",
-      "C) Aestheticism",
-      "D) Pollution control"
+      "C) Pollution control",
+      "D) Aestheticism"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Utilitarianism.",
@@ -4816,30 +4296,8 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 2"
     ],
-    "id": "pyq_125",
+    "id": "pyq_102",
     "topic": "e_commerce"
-  },
-  {
-    "question": "How long did the Constituent Assembly take to finally pass the Constitution?",
-    "options": [
-      "A) About 3 years since Dec 9, 1946",
-      "B) Exactly a year since Nov 26, 1948",
-      "C) About 6 months in 1949",
-      "D) About 2 years since Aug 15, 1947"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) About 3 years since Dec 9, 1946.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_126",
-    "topic": "constituent_assembly"
   },
   {
     "question": "Assertion (A): The Preamble of the Constitution starts with 'We, the people of India'.\nReason (R): It implies that the Constitution is created by the entire nation.",
@@ -4862,41 +4320,19 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_127",
+    "id": "pyq_103",
     "topic": "goi_act_1935"
-  },
-  {
-    "question": "Protection under Article _____________ can be claimed by an institution only if it is",
-    "options": [
-      "A) established by a religious or linguistic minority.",
-      "B) 26",
-      "C) 25",
-      "D) 30 29"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_128",
-    "topic": "constitutional_remedies"
   },
   {
     "question": "To produce the Constitution, the Constituent Assembly took:",
     "options": [
-      "A) 3 years 10 months and 20days",
-      "B) 2 years 11 months and 17days",
-      "C) 4 years 11 months and 17days",
-      "D) 5 years 6 months and 5days"
+      "A) 2 years 11 months and 17 days",
+      "B) 3 years 10 months and 20 days",
+      "C) 4 years 11 months and 17 days",
+      "D) 5 years 6 months and 5 days"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) 2 years 11 months and 17 days.",
+    "answer": "A",
+    "explanation": "Correct answer is A) 2 years 11 months and 17 days.",
     "unit": 1,
     "year": 2023,
     "source": "PYQ 2023 Set 3, PYQ 2023 Backlog",
@@ -4907,82 +4343,16 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_129",
+    "id": "pyq_104",
     "topic": "constituent_assembly"
-  },
-  {
-    "question": "The right to move ________ court for the enforcement of Fundamental Rightsis",
-    "options": [
-      "A) itself a guaranteed Fundamental Right.",
-      "B) Quasi-Judicial",
-      "C) Supreme",
-      "D) High Subordinate"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_130",
-    "topic": "right_to_privacy"
-  },
-  {
-    "question": "Which portion of the Indian Constitution reflects themind and ideals of its",
-    "options": [
-      "A) framers?",
-      "B) Directive Principles",
-      "C) Fundamental Rights",
-      "D) Emergency Provisions Preamble"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Preamble.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_131",
-    "topic": "secularism"
-  },
-  {
-    "question": "The Fundamental Rights of the Indian citizens have been enumerated from:",
-    "options": [
-      "A) Articles 13 to 36 of theConstitution",
-      "B) Articles 16 to 40 of theConstitution",
-      "C) Articles 12 to 35 of theConstitution",
-      "D) Articles 15 to 39 of theConstitution"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_132",
-    "topic": "goi_act_1935"
   },
   {
     "question": "The Preamble is useful in constitutional interpretation because it:",
     "options": [
-      "A) It is a source of power and limitation",
+      "A) Uses value loaded words",
       "B) Contains the real objective and philosophy of the Constitution makers",
-      "C) It gives an exhaustive list of basic features of the constitution.",
-      "D) Uses value loaded words"
+      "C) It is a source of power and limitation",
+      "D) It gives an exhaustive list of basic features of the constitution."
     ],
     "answer": "B",
     "explanation": "Correct answer is B) Contains the real objective and philosophy of the Constitution makers.",
@@ -4995,19 +4365,19 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 3"
     ],
-    "id": "pyq_133",
+    "id": "pyq_105",
     "topic": "preamble"
   },
   {
-    "question": "In case of disqualification of a member of Parliament, the President shall",
+    "question": "In case of disqualification of a member of Parliament, the President shall consult whom?",
     "options": [
-      "A) consult whom ?",
-      "B) Election Commission of India",
-      "C) Council of Minister",
-      "D) Prime Minister Chief Justice of India th th th th"
+      "A) Prime Minister",
+      "B) Council of Minister",
+      "C) Chief Justice of India",
+      "D) Election Commission of India"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Election Commission of India.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Election Commission of India.",
     "unit": 2,
     "year": 2023,
     "source": "PYQ 2023 Set 3",
@@ -5017,19 +4387,19 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 3"
     ],
-    "id": "pyq_134",
+    "id": "pyq_106",
     "topic": "president"
   },
   {
-    "question": "How many Presidents have been impeached in India ?",
+    "question": "How many Presidents have been impeached in India?",
     "options": [
-      "A) 2",
-      "B) 3",
-      "C) 0",
-      "D) 1"
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 0"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) 0.",
+    "answer": "D",
+    "explanation": "Correct answer is D) 0.",
     "unit": 2,
     "year": 2023,
     "source": "PYQ 2023 Set 3",
@@ -5039,19 +4409,19 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 3"
     ],
-    "id": "pyq_135",
+    "id": "pyq_107",
     "topic": "supreme_court"
   },
   {
-    "question": "How many types of Emergency have been visualized in the Constitution of",
+    "question": "How many types of Emergency have been visualized in the Constitution of India?",
     "options": [
-      "A) India?",
-      "B) Two",
-      "C) Four",
-      "D) Three One"
+      "A) Four",
+      "B) Three",
+      "C) One",
+      "D) Two"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Three.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Three.",
     "unit": 1,
     "year": 2023,
     "source": "PYQ 2023 Set 3",
@@ -5061,63 +4431,19 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Set 3"
     ],
-    "id": "pyq_136",
+    "id": "pyq_108",
     "topic": "goi_act_1935"
   },
   {
-    "question": "It the President wants to resign; he has to address the letter of resignation to",
+    "question": "A person is being harassed repeatedly by being followed called or be written to he/she is a target of",
     "options": [
-      "A) the:",
-      "B) Vice-President",
-      "C) Speaker",
-      "D) Prime Minister Chief Justice of India"
+      "A) Bullying",
+      "B) Stalking",
+      "C) Identity theft",
+      "D) Phishing"
     ],
     "answer": "B",
-    "explanation": "Correct answer is B) Vice-President.",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_137",
-    "topic": "president"
-  },
-  {
-    "question": "When the President is unable to discharge his functions owing to absence,",
-    "options": [
-      "A) illness or any other cause, ______________ shall discharge his functions until the date",
-      "B) on which the President resumes his duties.",
-      "C) Vice President",
-      "D) Chief Justice of Supreme Court Prime Minister Speaker"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Head of the State.",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_138",
-    "topic": "president"
-  },
-  {
-    "question": "A person is being harassed repeatedly by being followed called or be written to",
-    "options": [
-      "A) he/she is a target of",
-      "B) Phishing",
-      "C) Identity theft",
-      "D) Stalking Bullying"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Stalking.",
+    "explanation": "Correct answer is B) Stalking.",
     "unit": 3,
     "year": 2023,
     "source": "PYQ 2023 Set 3, PYQ 2023 Backlog",
@@ -5128,90 +4454,19 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_139",
+    "id": "pyq_109",
     "topic": "geographical_indications"
   },
   {
-    "question": "-------- are often delivered to a PC through an email attachment and are often",
+    "question": "E-Contracts are referred as:",
     "options": [
-      "A) designed to do harm.",
-      "B) Portals",
-      "C) Virus",
-      "D) Email Spam"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Virus.",
-    "unit": 3,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3, PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3",
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_140",
-    "topic": "geographical_indications"
-  },
-  {
-    "question": "Which section of IT Act was invalidated by Supreme Court of India?",
-    "options": [
-      "A) Section 66D",
-      "B) Section 66F",
-      "C) Section 66B",
-      "D) Section 66A"
+      "A) Cyber Contract",
+      "B) Online Contract",
+      "C) Digital Contract",
+      "D) All of the options"
     ],
     "answer": "D",
-    "explanation": "Correct answer is D) Section 66A.",
-    "unit": 3,
-    "year": 2025,
-    "source": "PYQ 2023 Set 3, PYQ 2023 Backlog, PYQ 2025 Set 1",
-    "years": [
-      2023,
-      2025
-    ],
-    "sources": [
-      "PYQ 2023 Set 3",
-      "PYQ 2023 Backlog",
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_141",
-    "topic": "it_act_2000"
-  },
-  {
-    "question": "Intellectual Property Rights (IPR) protect the use of information and ideas that",
-    "options": [
-      "A) are of",
-      "B) Commercial value",
-      "C) Social value",
-      "D) Moral value Ethical value"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Commercial value.",
-    "unit": 3,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3, PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3",
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_142",
-    "topic": "intellectual_property"
-  },
-  {
-    "question": "Which of the following section gives the essentials to a contract?",
-    "options": [
-      "A) Section 10 of Indian Contract Act",
-      "B) Section 10 of Transfer of Property Act",
-      "C) Section 10A of IT Act",
-      "D) Section 10 of Civil Procedure Act"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Section 10 of Indian Contract Act.",
+    "explanation": "Correct answer is D) All of the options.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2023 Set 3, PYQ 2025 Set 1",
@@ -5223,60 +4478,40 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_143",
-    "topic": "intermediary_liability"
+    "id": "pyq_110",
+    "topic": "cyber_crimes"
   },
   {
-    "question": "________ contracts are license agreements or other terms and conditions which",
+    "question": "What is the name given to an interactive business providing a centralized market where many buyers and suppliers can come together for e-commerce or commerce-related activities?",
     "options": [
-      "A) can only be read and accepted by the consumer after opening the product.",
-      "B) Click wrap",
-      "C) Browse wrap",
-      "D) Shrink wrap Bubble wrap"
+      "A) Direct market place",
+      "B) Electronic marketplace",
+      "C) B2B",
+      "D) B2C"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) All of the options.",
-    "unit": 3,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
+    "answer": "B",
+    "explanation": "An electronic marketplace (e-marketplace) is an online platform where multiple third-party sellers and buyers transact.",
+    "unit": 4,
+    "year": 2025,
+    "source": "PYQ 2023 Set 3, PYQ 2025 Set 1",
     "years": [
-      2023
+      2023,
+      2025
     ],
     "sources": [
-      "PYQ 2023 Set 3"
+      "PYQ 2023 Set 3",
+      "PYQ 2025 Set 1"
     ],
-    "id": "pyq_144",
-    "topic": "geographical_indications"
-  },
-  {
-    "question": "What is the name given to an interactive business providing a centralized",
-    "options": [
-      "A) market where many buyers and suppliers can come together for e‐commerce or",
-      "B) commerce‐related activities?",
-      "C) Direct market place",
-      "D) Electronic marketplace B2B B2C"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is not explicitly matched in the question banks.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_145",
-    "topic": "right_to_privacy"
+    "id": "pyq_111",
+    "topic": "e_commerce"
   },
   {
     "question": "Which of the following section gives validity to e-contracts?",
     "options": [
-      "A) Section 10 of Transfer of Property Act",
+      "A) Section 10 of Indian Contract Act",
       "B) Section 10A of IT Act",
       "C) Section 10 of Civil Procedure Act",
-      "D) Section 10 of Indian Contract Act"
+      "D) Section 10 of Transfer of Property Act"
     ],
     "answer": "B",
     "explanation": "Correct answer is B) Section 10A of IT Act.",
@@ -5292,14 +4527,14 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_146",
+    "id": "pyq_112",
     "topic": "intermediary_liability"
   },
   {
     "question": "Which of the following is a characteristic feature of professionalism?",
     "options": [
-      "A) No autonomy in the work place",
-      "B) Oligopoly",
+      "A) Oligopoly",
+      "B) No autonomy in the work place",
       "C) Expertise and knowledge",
       "D) Mediocre training"
     ],
@@ -5317,19 +4552,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_147",
+    "id": "pyq_113",
     "topic": "professional_ethics"
   },
   {
     "question": "Which of the following is not a skill associated with moral autonomy?",
     "options": [
-      "A) Ability to form inconsistent and incomprehensive viewpoints based on facts.",
-      "B) Proficiency in recognizing moral problems in engineering and ability to distinguish",
-      "C) problems in law, economics, and religion.",
-      "D) Awareness of alternate responses to the issues and creative solutions. Skill in comprehending, clarifying, and critically-assessing arguments on different aspects of moral issues."
+      "A) Proficiency in recognizing moral problems in engineering and ability to distinguish problems in law, economics, and religion.",
+      "B) Skill in comprehending, clarifying, and critically-assessing arguments on different aspects of moral issues.",
+      "C) Ability to form inconsistent and incomprehensive viewpoints based on facts.",
+      "D) Awareness of alternate responses to the issues and creative solutions. 35"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Ability to form inconsistent and incomprehensive viewpoints based on facts..",
+    "answer": "C",
+    "explanation": "Correct answer is C) Ability to form inconsistent and incomprehensive viewpoints based on facts..",
     "unit": 4,
     "year": 2025,
     "source": "PYQ 2023 Set 3, PYQ 2025 Set 2",
@@ -5341,16 +4576,16 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_148",
+    "id": "pyq_114",
     "topic": "professional_ethics"
   },
   {
     "question": "Pick the odd step out in solving a dilemma.",
     "options": [
-      "A) Not discuss with colleagues and obtain their perspectives, priorities, and suggestions on",
-      "B) various alternatives.",
-      "C) Collection of all information, data, and facts relevant to the situation.",
-      "D) Identification of the moral factors and reasons. Identify the relevant moral values from among duties, rights, goods and obligations. Professional code of ethics may be referred. Rank the moral options i.e., priority in application through value system."
+      "A) Identification of the moral factors and reasons...",
+      "B) Collection of all information, data, and facts relevant to the situation.",
+      "C) Rank the moral options i.e., priority in application through value system.",
+      "D) Not discuss with colleagues and obtain their perspectives, priorities, and sugges- tions on various alternatives."
     ],
     "answer": "D",
     "explanation": "Correct answer is D) Not discuss with colleagues and obtain their perspectives, priorities, and sugges- tions on various alternatives..",
@@ -5365,14 +4600,14 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_149",
+    "id": "pyq_115",
     "topic": "e_commerce"
   },
   {
     "question": "Choose the incorrect statement in relation to moral dilemma.",
     "options": [
-      "A) When in a dilemma, one is not clear of the immediate choice or solution of the problems.",
-      "B) Dilemmas are situations in which moral reasons come into conflict.",
+      "A) Dilemmas are situations in which moral reasons come into conflict.",
+      "B) When in a dilemma, one is not clear of the immediate choice or solution of the problems.",
       "C) Moral dilemma makes the decision making very easy.",
       "D) When in a dilemma, one is unable to distinguish between good and bad"
     ],
@@ -5389,64 +4624,44 @@ const PYQS = [
       "PYQ 2023 Set 3",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_150",
+    "id": "pyq_116",
     "topic": "e_commerce"
   },
   {
     "question": "Which of the following is not a reason for poor attitude amongst employees?",
     "options": [
-      "A) Good working environments.",
-      "B) Absence of recognition and reward system",
-      "C) Absence of grievance redressal mechanism",
-      "D) Low morale of the employees because of dissatisfaction and downsizing"
+      "A) Low morale of the employees because of dissatisfaction and downsizing",
+      "B) Absence of grievance redressal mechanism",
+      "C) Absence of recognition and reward system",
+      "D) Good working environments."
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Good working environments..",
+    "answer": "D",
+    "explanation": "Correct answer is D) Good working environments..",
     "unit": 4,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3, PYQ 2023 Backlog",
+    "year": 2025,
+    "source": "PYQ 2023 Set 3, PYQ 2023 Backlog, PYQ 2025 Set 2",
     "years": [
-      2023
+      2023,
+      2025
     ],
     "sources": [
       "PYQ 2023 Set 3",
-      "PYQ 2023 Backlog"
+      "PYQ 2023 Backlog",
+      "PYQ 2025 Set 2"
     ],
-    "id": "pyq_151",
+    "id": "pyq_117",
     "topic": "professional_ethics"
   },
   {
-    "question": "Ethics related to the product or work which involves the transportation,",
+    "question": "Which among the following parts of constitution of India, includes the concept of welfare states?",
     "options": [
-      "A) warehousing, and use, besides the safety of the end product and the",
-      "B) environment outside the factory.",
-      "C) Only i",
-      "D) Both i and ii Neither i nor ii Only ii"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Are moral principles that govern a person’s behavior or the conducting of an activity..",
-    "unit": 4,
-    "year": 2023,
-    "source": "PYQ 2023 Set 3",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Set 3"
-    ],
-    "id": "pyq_152",
-    "topic": "professional_ethics"
-  },
-  {
-    "question": "The right to move _____________ court for the enforcement of Fundamental",
-    "options": [
-      "A) Rightsis itself a guaranteed Fundamental Right.",
-      "B) Quasi-Judicial",
-      "C) Supreme",
-      "D) High Subordinate"
+      "A) Preamble",
+      "B) Fundamental rights",
+      "C) Directive principles",
+      "D) Fourth Schedule"
     ],
     "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
+    "explanation": "Correct answer is C) Directive principles.",
     "unit": 1,
     "year": 2023,
     "source": "PYQ 2023 Backlog",
@@ -5456,29 +4671,7 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_153",
-    "topic": "right_to_privacy"
-  },
-  {
-    "question": "Which among the following parts of constitution of India, includes the concept",
-    "options": [
-      "A) of welfare states?",
-      "B) Fourth Schedule",
-      "C) Preamble",
-      "D) Directive principles Fundamental rights"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Directive principles.",
-    "unit": 1,
-    "year": 2023,
-    "source": "PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_154",
+    "id": "pyq_118",
     "topic": "goi_act_1935"
   },
   {
@@ -5500,19 +4693,19 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_155",
+    "id": "pyq_119",
     "topic": "parliament"
   },
   {
     "question": "The normal term of the Governor’s office:",
     "options": [
-      "A) Is 5years",
-      "B) Is 4years",
-      "C) Is 3years",
-      "D) Depends on the tenure of the State Legislature"
+      "A) Depends on the tenure of the State Legislature 14",
+      "B) Is 3 years",
+      "C) Is 4 years",
+      "D) Is 5 years"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Is 5 years.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Is 5 years.",
     "unit": 2,
     "year": 2023,
     "source": "PYQ 2023 Backlog",
@@ -5522,38 +4715,16 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_156",
-    "topic": "president"
-  },
-  {
-    "question": "The Governor of a State is appointed by the President on the advice of the",
-    "options": [
-      "A) Prime Minister",
-      "B) Chief Justice",
-      "C) Chief Minister",
-      "D) Vice- President"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) The President on the recommendation of the Central Council of Ministers headed by Prime Minister.",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_157",
+    "id": "pyq_120",
     "topic": "president"
   },
   {
     "question": "What is the age at which an Indian can become a candidate for Presidentship?",
     "options": [
       "A) 45",
-      "B) 60",
-      "C) 35",
-      "D) 65"
+      "B) 65",
+      "C) 60",
+      "D) 35 15"
     ],
     "answer": "D",
     "explanation": "Correct answer is D) 35 15.",
@@ -5566,15 +4737,15 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_158",
+    "id": "pyq_121",
     "topic": "president"
   },
   {
     "question": "The Governor of a State is:",
     "options": [
-      "A) Head of State for which he is appointed as Governor",
-      "B) President's agent",
-      "C) Head of Government",
+      "A) Head of State of the State he is appointed as Governor",
+      "B) Head of Government",
+      "C) President’s agent",
       "D) Non-political figure"
     ],
     "answer": "A",
@@ -5588,41 +4759,19 @@ const PYQS = [
     "sources": [
       "PYQ 2023 Backlog"
     ],
-    "id": "pyq_159",
+    "id": "pyq_122",
     "topic": "president"
-  },
-  {
-    "question": "The Chief Justice and other Judges of the High Court are appointed by the",
-    "options": [
-      "A) Governor of the concerned state",
-      "B) President",
-      "C) Chief Justice of the Supreme Court",
-      "D) Chief Minister of the concerned state"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) President.",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_160",
-    "topic": "supreme_court"
   },
   {
     "question": "Which is the highest court of appeal in India?",
     "options": [
-      "A) High Court",
-      "B) Supreme Court",
-      "C) President",
-      "D) Privy Council"
+      "A) Supreme Court",
+      "B) President",
+      "C) High Court",
+      "D) Privy Council 16"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Supreme Court.",
+    "answer": "A",
+    "explanation": "Correct answer is A) Supreme Court.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2023 Backlog, PYQ 2025 Set 2",
@@ -5634,41 +4783,19 @@ const PYQS = [
       "PYQ 2023 Backlog",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_161",
+    "id": "pyq_123",
     "topic": "supreme_court"
   },
   {
-    "question": "Formally all the executive powers of the Union Government are vested in",
+    "question": "Right to Freedom of Association is guaranteed by which of the following clauses?",
     "options": [
-      "A) The Cabinet Ministers only",
-      "B) The Union Council of Ministers",
-      "C) The President of India",
-      "D) The Prime Minister of India"
+      "A) 19 (1) A",
+      "B) 19 (1) B 7",
+      "C) 19 (1) C",
+      "D) 19 (1) D"
     ],
     "answer": "C",
-    "explanation": "Correct answer is C) The President of India.",
-    "unit": 2,
-    "year": 2023,
-    "source": "PYQ 2023 Backlog",
-    "years": [
-      2023
-    ],
-    "sources": [
-      "PYQ 2023 Backlog"
-    ],
-    "id": "pyq_162",
-    "topic": "president"
-  },
-  {
-    "question": "The terms: ‘Secular, Socialist and Integrity’ were added to the Preamble",
-    "options": [
-      "A) in",
-      "B) 1979",
-      "C) 1977",
-      "D) 1976 1975"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) 1976.",
+    "explanation": "Correct answer is C) 19 (1) C.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2025 Set 1",
@@ -5678,38 +4805,16 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_163",
-    "topic": "preamble"
-  },
-  {
-    "question": "Right to Freedom of Association is guaranteed by which of the",
-    "options": [
-      "A) following clauses?",
-      "B) 19 (1) C",
-      "C) 19 (1) A",
-      "D) 19 (1) D 19 (1) B"
-    ],
-    "answer": "B",
-    "explanation": "Correct answer is B) 19 (1) C.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_164",
+    "id": "pyq_124",
     "topic": "right_to_freedom"
   },
   {
-    "question": "Which of the following statement with respect to the office of",
+    "question": "Which of the following statement with respect to the office of Governor is true?",
     "options": [
-      "A) Governor is true?",
-      "B) The Governor needs to be a PhD holder",
-      "C) The Governor may be transferred or removed by the President",
-      "D) The Governor can be impeached by the Parliament The Governor need to be minimum of 65 years of age"
+      "A) The Governor is the Vice-Chancellor of all State Universities",
+      "B) The Governor can impose National emergency",
+      "C) The Govern can issue pardon",
+      "D) None of the options"
     ],
     "answer": "D",
     "explanation": "Correct answer is D) None of the options.",
@@ -5722,63 +4827,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_165",
+    "id": "pyq_125",
     "topic": "president"
   },
   {
-    "question": "Under which Article financial emergency can be proclaimed?",
+    "question": "Who is empowered to suspend the operation of the Fundamental Rights?",
     "options": [
-      "A) Article 323",
-      "B) Article 356",
-      "C) Article 360",
-      "D) Article 359 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 1) 6/17"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_166",
-    "topic": "fundamental_duties"
-  },
-  {
-    "question": "The Governor of a State is appointed by the President on the advice of",
-    "options": [
-      "A) the",
-      "B) Prime Minister",
-      "C) Chief Justice",
-      "D) Vice- President Chief Minister 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 1) 7/17"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) The President on the recommendation of the Central Council of Ministers headed by Prime Minister.",
-    "unit": 2,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_167",
-    "topic": "president"
-  },
-  {
-    "question": "Who in empowered to suspend the operation of the Fundamental",
-    "options": [
-      "A) Rights?",
-      "B) Parliament",
+      "A) Supreme Court",
+      "B) President",
       "C) The Cabinet",
-      "D) Supreme Court President"
+      "D) Parliament"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) President.",
+    "answer": "B",
+    "explanation": "Correct answer is B) President.",
     "unit": 2,
     "year": 2025,
     "source": "PYQ 2025 Set 1",
@@ -5788,19 +4849,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_168",
+    "id": "pyq_126",
     "topic": "president"
   },
   {
     "question": "Malwares, Denial of service attacks, Hacking are types of :",
     "options": [
-      "A) Phishing",
-      "B) Cyber Terrorism",
-      "C) Hacking",
-      "D) Cyber Warfare"
+      "A) Cyber Terrorism",
+      "B) Cyber Warfare",
+      "C) Phishing",
+      "D) Hacking"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Hacking.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Hacking.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 1",
@@ -5810,41 +4871,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_169",
+    "id": "pyq_127",
     "topic": "cyber_crimes"
   },
   {
-    "question": "The set of exclusive rights granted to the author or creator of an",
+    "question": "The practice of making a transmission appears to come from an authorized user.",
     "options": [
-      "A) original work, including the right to copy, distribute and adapt the work is",
-      "B) called",
-      "C) Trademark",
-      "D) Industrial design Copyright Patent 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 1) 9/17"
+      "A) Hacking",
+      "B) Spoofing",
+      "C) Spamming",
+      "D) Spamdexing"
     ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Formed a part of original Constitution.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_170",
-    "topic": "goi_act_1935"
-  },
-  {
-    "question": "The practice of making a transmission appears to come from an",
-    "options": [
-      "A) authorized user.",
-      "B) Hacking",
-      "C) Spoofing",
-      "D) Spamdexing Spamming 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 1) 11/17"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) Spoofing.",
+    "answer": "B",
+    "explanation": "Correct answer is B) Spoofing.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 1",
@@ -5854,19 +4893,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_171",
+    "id": "pyq_128",
     "topic": "cyber_crimes"
   },
   {
     "question": "The diagram denotes which model of e-commerce?",
     "options": [
-      "A) C2B",
-      "B) C2C",
-      "C) B2B",
-      "D) B2C"
+      "A) B2C",
+      "B) B2B",
+      "C) C2B",
+      "D) C2C"
     ],
-    "answer": "D",
-    "explanation": "Correct answer is D) B2C.",
+    "answer": "A",
+    "explanation": "Correct answer is A) B2C.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 1, PYQ 2025 Set 2",
@@ -5877,63 +4916,19 @@ const PYQS = [
       "PYQ 2025 Set 1",
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_172",
+    "id": "pyq_129",
     "topic": "intellectual_property"
   },
   {
-    "question": "Which is a function of E‐commerce?",
+    "question": "Which is a function of E-commerce?",
     "options": [
       "A) marketing",
       "B) advertising",
       "C) supplying",
-      "D) all of the options only a both a and c both b and c 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 1) 12/17"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) all of the options.",
-    "unit": 3,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_173",
-    "topic": "geographical_indications"
-  },
-  {
-    "question": "What is the name given to an interactive business providing a",
-    "options": [
-      "A) centralized market where many buyers and suppliers can come together",
-      "B) for e‐commerce or commerce‐related activities?",
-      "C) Electronic marketplace",
-      "D) B2B Direct marketplace B2C"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is not explicitly matched in the question banks.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_174",
-    "topic": "right_to_privacy"
-  },
-  {
-    "question": "________ contracts are license agreements or other terms and",
-    "options": [
-      "A) conditions which can only be read and accepted by the consumer after",
-      "B) opening the product.",
-      "C) Browse wrap",
-      "D) Shrink wrap Click wrap Bubble wrap"
+      "D) all of the options"
     ],
     "answer": "D",
-    "explanation": "Correct answer is D) All of the options.",
+    "explanation": "Correct answer is D) all of the options.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 1",
@@ -5943,60 +4938,16 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_175",
+    "id": "pyq_130",
     "topic": "geographical_indications"
   },
   {
-    "question": "Promoting what is good for oneself without caring societal",
+    "question": "Which of the following is an appropriate general principle with regard for ”Engineering Ethics”?",
     "options": [
-      "A) relationships can be termed ___",
-      "B) Moral Authority",
-      "C) Self control",
-      "D) Ethical Egoism Self Esteem 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 1) 16/17 The working hours of the organization How to do the job safely at the workplace It mentions the list of doctors and the number of First Aid boxes in the organization How to report accidents at the workplace"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Ethical Egoism.",
-    "unit": 4,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_176",
-    "topic": "e_commerce"
-  },
-  {
-    "question": "Which of the following statements in the profession’s code of ethics is",
-    "options": [
-      "A) the most accurate?",
-      "B) A code of ethics makes sure that all the members of a profession act ethically",
-      "C) at all times",
-      "D) A code of ethics communicates the principles and expected behavior of a profession ‘s members A code of ethics is a book not followed strictly. A code of ethics always includes standard of conduct"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Are moral principles that govern a person’s behavior or the conducting of an activity..",
-    "unit": 4,
-    "year": 2025,
-    "source": "PYQ 2025 Set 1",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 1"
-    ],
-    "id": "pyq_177",
-    "topic": "professional_ethics"
-  },
-  {
-    "question": "Which of the following is an appropriate general principle with regard",
-    "options": [
-      "A) for “Engineering Ethics”?",
-      "B) The Engineer shall regard his duty to the public welfare as paramount to all",
-      "C) other obligations.",
-      "D) The Engineer shall regard his duty to the objectives of the company as paramount to all other obligations The Engineer shall regard his duty to his excellence as paramount to other obligations. The Engineer shall regard his duty to the profession of engineering as paramount to other obligations."
+      "A) The Engineer shall regard his duty to the public welfare as paramount to all other obligations.",
+      "B) The Engineer shall regard his duty to the objectives of the company as paramount to all other obligations",
+      "C) The Engineer shall regard his duty to the profession of engineering as paramount to other obligations.",
+      "D) The Engineer shall regard his duty to his excellence as paramount to other obligations."
     ],
     "answer": "A",
     "explanation": "Correct answer is A) The Engineer shall regard his duty to the public welfare as paramount to all other obligations..",
@@ -6009,52 +4960,8 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 1"
     ],
-    "id": "pyq_178",
+    "id": "pyq_131",
     "topic": "professional_ethics"
-  },
-  {
-    "question": "According to Article 47 of the Indian Constitution, it is the duty of the",
-    "options": [
-      "A) state to raise the level of nutrition and the stan­dard of living and to",
-      "B) improve public health. Which of the following statements regarding public",
-      "C) health is/are correct?",
-      "D) I. Article 47 makes improvement of public health a primary duty of the State. II. In case of need, the local authority should approach the State Government to grant loan or aid, and the latter should supply the money required in view of primary duty of the ‘State’ under Article 47. I and II Only II None Only I"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 2",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_179",
-    "topic": "goi_act_1935"
-  },
-  {
-    "question": "According to Article 39 of the Indian Constitution the State shall, in",
-    "options": [
-      "A) particular, direct its policy towards securing:",
-      "B) I. That the citizens, men and women equally, have the right to an",
-      "C) adequate means of livelihood.",
-      "D) II. That the ownership and control of the material resources of the community are so distributed as best to subserve the common good. III. That there is equal pay for equal work for both men and women. II and III I and III I, II and III I and II 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 2/18"
-    ],
-    "answer": "C",
-    "explanation": "Correct answer is C) states that the State shall not make any law which takes away or abridges the fundamental rights.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 2",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_180",
-    "topic": "dpsp"
   },
   {
     "question": "A boy, aged 11 years, has been compelled to work in a factory making match boxes. Which Fundamental Right is violated in this case?",
@@ -6075,19 +4982,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_181",
+    "id": "pyq_132",
     "topic": "right_to_privacy"
   },
   {
-    "question": "Directive Principles have been included in the Constitution to",
+    "question": "Directive Principles have been included in the Constitution to achieve the ideals of:",
     "options": [
-      "A) achievethe ideals of:",
-      "B) Welfare state",
+      "A) Individual liberty",
+      "B) Political liberty",
       "C) Democracy",
-      "D) Political liberty Individual liberty 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 3/18"
+      "D) Welfare state"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Welfare state.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Welfare state.",
     "unit": 1,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6097,16 +5004,38 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_182",
+    "id": "pyq_133",
     "topic": "dpsp"
+  },
+  {
+    "question": "Consider the following statements:\n1) The Indian Constitution is an unwritten Constitution.\n2) The Indian Constitution is a written Constitution.\n3) The Indian Constitution is largely based on the Government of India Act, 1935.\nWhich of the statements given above are correct?",
+    "options": [
+      "A) 1 and 3 are correct",
+      "B) 2 and 1 are correct",
+      "C) 1 and 2 are correct",
+      "D) 2 and 3 are correct"
+    ],
+    "answer": "D",
+    "explanation": "The Constitution of India is a written constitution and is largely based on the Government of India Act 1935.",
+    "unit": 1,
+    "year": 2025,
+    "source": "PYQ 2025 Set 2",
+    "years": [
+      2025
+    ],
+    "sources": [
+      "PYQ 2025 Set 2"
+    ],
+    "id": "pyq_134",
+    "topic": "goi_act_1935"
   },
   {
     "question": "The text of the Preamble of the Constitution of India aims to secure:",
     "options": [
-      "A) fundamental duties to citizen of India",
-      "B) security of service to Government Servant.",
+      "A) fundamental rights to all individuals",
+      "B) fundamental duties to citizen of India",
       "C) dignity of the individual and unity and integrity of the nation",
-      "D) fundamental rights to all individuals"
+      "D) security of service to Government Servant."
     ],
     "answer": "C",
     "explanation": "Correct answer is C) dignity of the individual and unity and integrity of the nation.",
@@ -6119,16 +5048,16 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_183",
+    "id": "pyq_135",
     "topic": "goi_act_1935"
   },
   {
-    "question": "Which one among the following is a fundamental duty of the citizens",
+    "question": "Which among the following is not a Fundamental Right?",
     "options": [
-      "A) under the Constitution of India?",
-      "B) To provide friendly cooperation to the people of the neighboring countries",
-      "C) To know more and more about the history of India.",
-      "D) To defend the country and render national service when called upon to do so To protect monuments of national importance"
+      "A) Right to strike",
+      "B) Right against exploitation",
+      "C) Right to equality",
+      "D) Right to freedom of religion"
     ],
     "answer": "A",
     "explanation": "Correct answer is A) Right to strike.",
@@ -6141,41 +5070,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_184",
-    "topic": "goi_act_1935"
+    "id": "pyq_136",
+    "topic": "right_to_privacy"
   },
   {
-    "question": "Which one of the following is not a qualification for election as",
+    "question": "The age of offence of child abuse is mentioned as years under IT Act, 2000.",
     "options": [
-      "A) president?",
-      "B) 1) He must have completed the age of 35 years",
-      "C) 2) He must be qualified for election as a member of house of people",
-      "D) 3) He must not be more than age of 65 years 4) He mut not be an acting minister either for union or for any state Choose the correct one: 3,4 2,4 1,4 1,2 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 6/18"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Must be a graduate with 55% of marks.",
-    "unit": 2,
-    "year": 2025,
-    "source": "PYQ 2025 Set 2",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_185",
-    "topic": "president"
-  },
-  {
-    "question": "The age of offence of child abuse is mentioned as __________ years",
-    "options": [
-      "A) under IT Act, 2000.",
-      "B) 21 years",
+      "A) 14 years",
+      "B) 16 years",
       "C) 18 years",
-      "D) 16 years 14 years"
+      "D) 21 years"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A.",
+    "answer": "C",
+    "explanation": "Correct answer is C) 18 years.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6185,19 +5092,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_186",
-    "topic": "intellectual_property"
+    "id": "pyq_137",
+    "topic": "it_act_2000"
   },
   {
-    "question": "In the following case the Hon’ble Supreme Court struck down Section",
+    "question": "In the following case the Hon’ble Supreme Court struck down Section 66 A of I.T. Act:",
     "options": [
-      "A) 66 A of I.T. Act:",
-      "B) K. A. Abbas v/s UOI",
-      "C) Kartar Singh v/s State of Punjab",
-      "D) Shreya Singhal v/s UOI Maneka Gandhi v/s UOI 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 11/18"
+      "A) Kartar Singh v/s State of Punjab",
+      "B) Maneka Gandhi v/s UOI",
+      "C) K. A. Abbas v/s UOI",
+      "D) Shreya Singhal v/s UOI"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Shreya Singhal v/s UOI.",
+    "answer": "D",
+    "explanation": "Correct answer is D) Shreya Singhal v/s UOI.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6207,30 +5114,8 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_187",
-    "topic": "intermediary_liability"
-  },
-  {
-    "question": "Authentication of any electronic record by a subscriber by means of",
-    "options": [
-      "A) the electronic technique specified in the _______ schedule and includes",
-      "B) digital signature.",
-      "C) First",
-      "D) Second Third Fourth 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 12/18"
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is not explicitly matched in the question banks.",
-    "unit": 1,
-    "year": 2025,
-    "source": "PYQ 2025 Set 2",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_188",
-    "topic": "goi_act_1935"
+    "id": "pyq_138",
+    "topic": "it_act_2000"
   },
   {
     "question": "Online Contracts can be formed by:",
@@ -6238,10 +5123,10 @@ const PYQS = [
       "A) E-mails",
       "B) Website forms",
       "C) EULA",
-      "D) Both a and c All of the above Both b and c Only a"
+      "D) All of the above"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) All of the above.",
+    "answer": "D",
+    "explanation": "Correct answer is D) All of the above.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6251,19 +5136,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_189",
+    "id": "pyq_139",
     "topic": "it_act_2000"
   },
   {
     "question": "Electronic signature is defined under:",
     "options": [
-      "A) Sec 2(ta) of Indian Contract Act",
-      "B) Sec 2(ta) of IT Act",
-      "C) Sec 2(a) of Indian Contract Act",
-      "D) Sec 28(ta) of IT Act 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 13/18"
+      "A) Sec 2(ta) of IT Act",
+      "B) Sec 28(ta) of IT Act",
+      "C) Sec 2(ta) of Indian Contract Act",
+      "D) none of the options"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) Sec 2(ta) of IT Act.",
+    "answer": "A",
+    "explanation": "Correct answer is A) Sec 2(ta) of IT Act.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6273,7 +5158,7 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_190",
+    "id": "pyq_140",
     "topic": "geographical_indications"
   },
   {
@@ -6282,10 +5167,10 @@ const PYQS = [
       "A) standardized system",
       "B) Coding trade transactions",
       "C) Is used by organizations that a make a large no. of regular transaction",
-      "D) All the above Both b and c Only c Only a"
+      "D) All the above"
     ],
-    "answer": "A",
-    "explanation": "Correct answer is A) All the above.",
+    "answer": "D",
+    "explanation": "Correct answer is D) All the above.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6295,19 +5180,19 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_191",
+    "id": "pyq_141",
     "topic": "dpdpa_2023"
   },
   {
     "question": "Ubiquity of e-commerce refers to:",
     "options": [
-      "A) removal of legal system for commerce",
-      "B) removal of traditional limitation of geographical location for commerce",
-      "C) removal of age restriction for commerce",
-      "D) removal of limitation of geographical location for commerce 3/25/25, 12:01 PM ESA - Jan 2025 - UL24CE121A (set- 2) 15/18"
+      "A) removal of traditional limitation of geographical location for commerce",
+      "B) removal of age restriction for commerce",
+      "C) removal of legal system for commerce",
+      "D) all of the options"
     ],
-    "answer": "B",
-    "explanation": "Correct answer is B) removal of traditional limitation of geographical location for commerce.",
+    "answer": "A",
+    "explanation": "Correct answer is A) removal of traditional limitation of geographical location for commerce.",
     "unit": 3,
     "year": 2025,
     "source": "PYQ 2025 Set 2",
@@ -6317,30 +5202,8 @@ const PYQS = [
     "sources": [
       "PYQ 2025 Set 2"
     ],
-    "id": "pyq_192",
+    "id": "pyq_142",
     "topic": "cyber_crimes"
-  },
-  {
-    "question": "Which of the following is not a reason for poor attitude amongst",
-    "options": [
-      "A) employees?",
-      "B) Absence of grievance redressal mechanism",
-      "C) Low morale of the employees because of dissatisfaction and downsizing",
-      "D) Absence of recognition and reward system Good working environments."
-    ],
-    "answer": "A",
-    "explanation": "Correct answer is A) Good working environments..",
-    "unit": 4,
-    "year": 2025,
-    "source": "PYQ 2025 Set 2",
-    "years": [
-      2025
-    ],
-    "sources": [
-      "PYQ 2025 Set 2"
-    ],
-    "id": "pyq_193",
-    "topic": "professional_ethics"
   }
 ];
 
