@@ -1,0 +1,232 @@
+/* ============================================================
+   MINDMAP.CSS — Modern Vector Pill Mind Map Styles (v5)
+   Clean, flat, high-contrast, category-colored pill layout
+   ============================================================ */
+
+/* ── SVG Container ─────────────────────────────────────────── */
+#mindmap-svg {
+  display: block;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
+
+/* ── Clean flat canvas backgrounds ─────────────────────────── */
+/* Light Mode: Clean Slate White */
+[data-theme="light"] .mindmap-canvas-wrapper {
+  background-color: #f8fafc;
+  background-image: none;
+  transition: background-color 0.25s ease;
+}
+
+/* Dark Mode: Deep Slate Blue */
+[data-theme="dark"] .mindmap-canvas-wrapper {
+  background-color: #0f172a;
+  background-image: none;
+  transition: background-color 0.25s ease;
+}
+
+/* ── Modern Sans-Serif Font ────────────────────────────────── */
+#mindmap-svg text {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+  user-select: none;
+}
+
+/* ── Connections & Transitions ──────────────────────────────── */
+.mm-branch-link {
+  transition: stroke-opacity 0.2s ease, stroke-width 0.2s ease;
+}
+
+.mm-sub-link {
+  transition: stroke-opacity 0.2s ease;
+}
+
+/* ── Capsule pill nodes ────────────────────────────────────── */
+.mm-node-bubble {
+  transition: stroke-width 0.18s ease, transform 0.18s ease, fill 0.18s ease;
+  transform-origin: center;
+}
+
+.mm-topic-node {
+  transition: opacity 0.2s ease;
+}
+
+.mm-sub-node {
+  transition: opacity 0.2s ease;
+}
+
+/* ── Tooltip (Flat Glassmorphism Overlay) ────────────────────── */
+.mm-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 0.85rem 1.15rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.78rem;
+  z-index: 400;
+  max-width: 245px;
+  min-width: 175px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(4px) scale(0.98);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.mm-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.mm-tooltip-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #f8fafc;
+  margin-bottom: 0.25rem;
+  line-height: 1.35;
+}
+.mm-tooltip-stars {
+  font-size: 0.72rem;
+  color: #fbbf24;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.25rem;
+}
+.mm-tooltip-freq {
+  font-size: 0.72rem;
+  color: #fbbf24;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.mm-tooltip-hint {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.45);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 0.35rem;
+  margin-top: 0.35rem;
+}
+
+/* ── Modern Flat Info Panel ─────────────────────────────────── */
+.mm-info-panel {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 175px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', system-ui, sans-serif !important;
+}
+
+.mm-info-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: #475569;
+  font-weight: 600;
+}
+.mm-info-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.mm-info-divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.06);
+  margin: 0.2rem 0;
+}
+.mm-info-stat {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 600;
+}
+.mm-info-stat span {
+  font-weight: 800;
+  color: #0f172a;
+  margin-right: 0.2rem;
+}
+
+/* ── Clean Zoom Controls ────────────────────────────────────── */
+.mm-zoom-controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.mm-zoom-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #475569;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: 'Inter', system-ui, sans-serif !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+.mm-zoom-btn:hover {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* ── Light Mode Specific Details ────────────────────────────── */
+[data-theme="light"] .mm-tooltip {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+[data-theme="light"] .mm-tooltip-title { color: #0f172a; }
+[data-theme="light"] .mm-tooltip-hint  { color: rgba(0,0,0,0.45); border-top-color: rgba(0,0,0,0.06); }
+
+/* ── Dark Mode Specific Details ─────────────────────────────── */
+[data-theme="dark"] .mm-info-panel {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+[data-theme="dark"] .mm-info-row { color: #94a3b8; }
+[data-theme="dark"] .mm-info-stat { color: #64748b; }
+[data-theme="dark"] .mm-info-stat span { color: #f8fafc; }
+[data-theme="dark"] .mm-info-divider { background: rgba(255, 255, 255, 0.08); }
+
+[data-theme="dark"] .mm-zoom-btn {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #94a3b8;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+[data-theme="dark"] .mm-zoom-btn:hover {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+}
+
+/* ── Mobile Responsive ──────────────────────────────────────── */
+@media (max-width: 640px) {
+  .mm-info-panel { display: none; }
+  .mm-zoom-controls { bottom: 0.5rem; right: 0.5rem; }
+  .mm-zoom-btn { width: 32px; height: 32px; font-size: 1rem; }
+}

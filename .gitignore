@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Vercel & Node
+node_modules/
+.vercel/
+.next/
+dist/
+out/
+build/
+*.log
