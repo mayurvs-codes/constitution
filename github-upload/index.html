@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <!-- ── Error Boundary (catches JS errors before any script loads) ── -->
+  <script>
+    window.onerror = function(message, source, lineno, colno, error) {
+      const errDiv = document.createElement('div');
+      errDiv.id = 'debug-error-boundary';
+      errDiv.style.cssText = 'position:fixed;top:0;left:0;width:100%;background:#ef4444;color:#fff;padding:1.5rem;z-index:999999;font-family:system-ui,monospace;white-space:pre-wrap;box-shadow:0 10px 15px -3px rgba(0,0,0,0.3);box-sizing:border-box;max-height:60vh;overflow-y:auto;';
+      errDiv.innerHTML = '<h3 style="margin:0 0 0.5rem 0;font-size:1.1rem;font-weight:700;">🚨 Script Error</h3>' +
+        '<div style="font-weight:600;margin-bottom:0.5rem;">' + message + '</div>' +
+        '<div style="font-size:0.875rem;opacity:0.9;">File: ' + source + '<br>Line: ' + lineno + ' · Column: ' + colno + '</div>' +
+        (error && error.stack ? '<pre style="margin-top:1rem;background:rgba(0,0,0,0.25);padding:0.75rem;border-radius:4px;font-size:0.75rem;overflow-x:auto;">' + error.stack + '</pre>' : '') +
+        '<button onclick="this.parentElement.remove()" style="margin-top:1rem;background:#fff;color:#ef4444;border:none;padding:0.5rem 1rem;border-radius:4px;font-weight:bold;cursor:pointer;">Dismiss</button>';
+      document.body && document.body.appendChild(errDiv);
+      return false;
+    };
+  </script>
+
+  <!-- ── Primary Meta ──────────────────────────────────────────── -->
+  <title>ConstitutionIQ — Constitution, Cyber Law &amp; Professional Ethics Study Platform</title>
+  <meta name="description" content="Interactive study platform for Constitution of India, Cyber Law &amp; Professional Ethics. Features mind maps, PYQ analytics, flashcards, exam mode &amp; smart revision for university exam preparation.">
+  <meta name="keywords" content="Constitution of India, Cyber Law, IT Act 2000, Fundamental Rights, DPSP, PYQ, MCQ, Law Study, Professional Ethics, E-Commerce Law">
+  <meta name="author" content="ConstitutionIQ">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://constitutioniq.app/">
+
+  <!-- ── Open Graph (Facebook, WhatsApp, LinkedIn) ─────────────── -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://constitutioniq.app/">
+  <meta property="og:title" content="ConstitutionIQ — Constitution, Cyber Law &amp; Ethics Study Platform">
+  <meta property="og:description" content="Master Constitution of India, Cyber Law &amp; Professional Ethics with interactive mind maps, 450+ PYQs, flashcards and smart revision tools.">
+  <meta property="og:image" content="https://constitutioniq.app/og-image.png">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="ConstitutionIQ">
+
+  <!-- ── Twitter Card ──────────────────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ConstitutionIQ — Ace Your Law Exams">
+  <meta name="twitter:description" content="450+ PYQs, Mind Maps, Flashcards & Smart Revision for Constitution of India, Cyber Law & Professional Ethics.">
+  <meta name="twitter:image" content="https://constitutioniq.app/og-image.png">
+
+  <!-- ── PWA & Mobile ──────────────────────────────────────────── -->
+  <meta name="theme-color" content="#1e40af" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#1d4ed8" media="(prefers-color-scheme: light)">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ConstitutionIQ">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- ── Favicon (inline SVG — no file needed) ─────────────────── -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231e40af'/><text x='50' y='68' font-size='60' text-anchor='middle'>⚖️</text></svg>">
+
+  <!-- ── Critical CSS (inline — guarantees first paint) ────────── -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #070d1a;
+      color: #f0f4ff;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    [data-theme="light"] body { background: #f0f4ff; color: #0f172a; }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; }
+    /* Page visibility — home shows instantly, others hidden until navigated */
+    .page { display: none; }
+    .page.active { display: block; }
+    /* Navbar renders immediately */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(7, 13, 26, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      padding: 0 1.5rem; height: 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    [data-theme="light"] .navbar { background: rgba(255,255,255,0.92); }
+    /* Loading spinner for pages not yet rendered */
+    .loading-dots { display: flex; align-items: center; justify-content: center; gap: 0.4rem; padding: 3rem; }
+    .loading-dot { width: 8px; height: 8px; background: #3b82f6; border-radius: 50%; animation: lb 1.4s ease-in-out infinite; }
+    .loading-dot:nth-child(2) { animation-delay: 0.2s; background: #f59e0b; }
+    .loading-dot:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes lb { 0%,80%,100% { transform: scale(0); } 40% { transform: scale(1); } }
+    /* Utility */
+    .hidden { display: none !important; }
+  </style>
+
+  <!-- ── Google Fonts (async — non-blocking) ───────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;600;700&family=Architects+Daughter&family=Patrick+Hand&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;600;700&family=Architects+Daughter&family=Patrick+Hand&display=swap">
+  </noscript>
+
+  <!-- ── Stylesheets ───────────────────────────────────────────── -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mindmap.css">
+</head>
+<body>
+
+<!-- Reading Progress Bar -->
+<div id="reading-progress"></div>
+
+<!-- ══ NAVBAR ══════════════════════════════════════════════════════ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-brand" onclick="App.navigate('home')" aria-label="ConstitutionIQ Home">
+    <div class="brand-icon" aria-hidden="true">⚖️</div>
+    <span>ConstitutionIQ</span>
+  </div>
+
+  <!-- Nav Links -->
+  <div class="navbar-nav" id="navbar-nav" role="menubar">
+    <button class="nav-btn active" data-page="home" id="nav-home" role="menuitem">🏠 Home</button>
+    <button class="nav-btn" data-page="mindmap" id="nav-mindmap" role="menuitem">🗺️ Mind Map</button>
+    <button class="nav-btn" data-page="analytics" id="nav-analytics" role="menuitem">📊 Analytics</button>
+    <button class="nav-btn" data-page="exam" id="nav-exam" role="menuitem">🎓 Exam Mode</button>
+    <button class="nav-btn" data-page="flashcards" id="nav-flashcards" role="menuitem">🃏 Flashcards</button>
+    <button class="nav-btn" data-page="revision" id="nav-revision" role="menuitem">🎯 Smart Revision</button>
+    <button class="nav-btn" data-page="bookmarks" id="nav-bookmarks" role="menuitem">🔖 Bookmarks</button>
+  </div>
+
+  <!-- Actions -->
+  <div class="navbar-actions">
+    <!-- Global Search -->
+    <div class="global-search-wrapper" role="search">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input
+        type="search"
+        id="global-search-input"
+        class="global-search"
+        placeholder="Search topics, PYQs... (press /)"
+        aria-label="Search topics and PYQs"
+        autocomplete="off"
+      >
+      <div id="search-results-dropdown" class="search-results-dropdown" role="listbox" aria-label="Search results"></div>
+    </div>
+
+    <!-- Streak Badge -->
+    <div class="streak-badge" id="streak-display" title="Study streak">
+      🔥 <span id="streak-badge-count">0</span>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle theme">☀️</button>
+
+    <!-- Hamburger for mobile -->
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══ MAIN CONTENT ════════════════════════════════════════════════ -->
+<main class="main-content app-container">
+
+  <!-- ── HOME PAGE ─────────────────────────────────────────────── -->
+  <div class="page active" id="page-home" role="main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-particles" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-badge">🏛️ Constitution · Cyber Law · Professional Ethics</div>
+        <h1 class="hero-title" id="hero-title">Your Complete Exam<br>Preparation Platform</h1>
+        <p class="hero-subtitle">
+          Master Constitution of India, Cyber Law & Professional Ethics with interactive mind maps,
+          PYQ analytics, flashcards, and smart revision tools.
+        </p>
+
+        <!-- Live Stats -->
+        <div class="hero-stats" aria-label="Platform statistics">
+          <div class="hero-stat">
+            <span class="hero-stat-number">4</span>
+            <div class="hero-stat-label">Units Covered</div>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number" id="stat-topics-done">0/20</span>
+            <div class="hero-stat-label">Topics Studied</div>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">450+</span>
+            <div class="hero-stat-label">PYQs (2023-25)</div>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number" id="stat-avg-score">0%</span>
+            <div class="hero-stat-label">Avg Exam Score</div>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">68</span>
+            <div class="hero-stat-label">Flashcards</div>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-primary btn-lg" id="hero-start-btn" aria-label="Start studying with mind map">
+            🗺️ Explore Mind Maps
+          </button>
+          <button class="btn btn-gold btn-lg" id="hero-exam-btn" aria-label="Start exam mode">
+            🎓 Start Exam Mode
+          </button>
+          <button class="btn btn-outline btn-lg" onclick="App.navigate('analytics')" aria-label="View PYQ analytics">
+            📊 PYQ Analytics
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unit Cards -->
+    <section class="section" aria-labelledby="units-heading">
+      <div class="section-header">
+        <div class="section-label">Study Units</div>
+        <h2 id="units-heading">Choose Your Unit</h2>
+        <p class="section-subtitle">Click on any unit card to explore its mind map</p>
+      </div>
+
+      <div class="unit-cards-grid">
+        <!-- Unit 1 -->
+        <article class="unit-card unit-card-1" data-unit="1" tabindex="0" role="button" aria-label="Unit 1: Introduction to Constitution of India">
+          <div class="unit-card-header">
+            <div class="unit-icon unit-icon-1" aria-hidden="true">🏛️</div>
+            <div>
+              <div class="unit-number">Unit 1</div>
+              <div class="unit-title">Introduction to Constitution of India</div>
+            </div>
+          </div>
+          <div class="unit-card-stats">
+            <div class="unit-stat">
+              <div class="unit-stat-val">16</div>
+              <div class="unit-stat-lbl">Topics</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">36</div>
+              <div class="unit-stat-lbl">PYQs</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">35</div>
+              <div class="unit-stat-lbl">Flashcards</div>
+            </div>
+          </div>
+          <div class="unit-progress-bar" aria-label="Unit 1 progress">
+            <div class="unit-progress-fill" style="width:0%"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span style="font-size:0.75rem;color:var(--text-muted);" class="unit-progress-percent">0% complete</span>
+            <button class="btn btn-outline btn-sm">Explore →</button>
+          </div>
+        </article>
+
+        <!-- Unit 2 -->
+        <article class="unit-card unit-card-2" data-unit="2" tabindex="0" role="button" aria-label="Unit 2: Federal System, Legislature, Executive and Judiciary">
+          <div class="unit-card-header">
+            <div class="unit-icon unit-icon-2" aria-hidden="true">⚖️</div>
+            <div>
+              <div class="unit-number">Unit 2</div>
+              <div class="unit-title">Federal System, Legislature, Executive & Judiciary</div>
+            </div>
+          </div>
+          <div class="unit-card-stats">
+            <div class="unit-stat">
+              <div class="unit-stat-val">7</div>
+              <div class="unit-stat-lbl">Topics</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">13</div>
+              <div class="unit-stat-lbl">PYQs</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">11</div>
+              <div class="unit-stat-lbl">Flashcards</div>
+            </div>
+          </div>
+          <div class="unit-progress-bar" aria-label="Unit 2 progress">
+            <div class="unit-progress-fill" style="width:0%"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span style="font-size:0.75rem;color:var(--text-muted);" class="unit-progress-percent">0% complete</span>
+            <button class="btn btn-outline btn-sm">Explore →</button>
+          </div>
+        </article>
+
+        <!-- Unit 3 -->
+        <article class="unit-card unit-card-3" data-unit="3" tabindex="0" role="button" aria-label="Unit 3: Cyber Law and Intellectual Property Regime">
+          <div class="unit-card-header">
+            <div class="unit-icon unit-icon-3" aria-hidden="true">💻</div>
+            <div>
+              <div class="unit-number">Unit 3</div>
+              <div class="unit-title">Cyber Law & Intellectual Property Regime</div>
+            </div>
+          </div>
+          <div class="unit-card-stats">
+            <div class="unit-stat">
+              <div class="unit-stat-val">7</div>
+              <div class="unit-stat-lbl">Topics</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">15</div>
+              <div class="unit-stat-lbl">PYQs</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">16</div>
+              <div class="unit-stat-lbl">Flashcards</div>
+            </div>
+          </div>
+          <div class="unit-progress-bar" aria-label="Unit 3 progress">
+            <div class="unit-progress-fill" style="width:0%"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span style="font-size:0.75rem;color:var(--text-muted);" class="unit-progress-percent">0% complete</span>
+            <button class="btn btn-outline btn-sm">Explore →</button>
+          </div>
+        </article>
+
+        <!-- Unit 4 -->
+        <article class="unit-card unit-card-4" data-unit="4" tabindex="0" role="button" aria-label="Unit 4: E-Commerce and Professional Ethics">
+          <div class="unit-card-header">
+            <div class="unit-icon unit-icon-4" aria-hidden="true">🤝</div>
+            <div>
+              <div class="unit-number">Unit 4</div>
+              <div class="unit-title">E-Commerce & Professional Ethics</div>
+            </div>
+          </div>
+          <div class="unit-card-stats">
+            <div class="unit-stat">
+              <div class="unit-stat-val">3</div>
+              <div class="unit-stat-lbl">Topics</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">11</div>
+              <div class="unit-stat-lbl">PYQs</div>
+            </div>
+            <div class="unit-stat">
+              <div class="unit-stat-val">6</div>
+              <div class="unit-stat-lbl">Flashcards</div>
+            </div>
+          </div>
+          <div class="unit-progress-bar" aria-label="Unit 4 progress">
+            <div class="unit-progress-fill" style="width:0%"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span style="font-size:0.75rem;color:var(--text-muted);" class="unit-progress-percent">0% complete</span>
+            <button class="btn btn-outline btn-sm">Explore →</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="section" style="padding-top:0;" aria-labelledby="features-heading">
+      <div class="section-header">
+        <div class="section-label">Platform Features</div>
+        <h2 id="features-heading">Everything You Need to Ace Your Exam</h2>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;">
+        <div class="card" onclick="App.navigate('mindmap')" style="cursor:pointer;" tabindex="0" role="button" aria-label="Interactive Mind Maps">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">🗺️</div>
+          <h4 style="margin-bottom:0.5rem;">Interactive Mind Maps</h4>
+          <p style="font-size:0.875rem;">D3.js powered zoomable mind maps for all 4 units with importance indicators and PYQ counts.</p>
+        </div>
+        <div class="card" onclick="App.navigate('analytics')" style="cursor:pointer;" tabindex="0" role="button" aria-label="PYQ Analytics">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">📊</div>
+          <h4 style="margin-bottom:0.5rem;">PYQ Analytics</h4>
+          <p style="font-size:0.875rem;">Heat maps, frequency charts, and unit-wise weightage charts based on 75+ previous year questions.</p>
+        </div>
+        <div class="card" onclick="App.navigate('exam')" style="cursor:pointer;" tabindex="0" role="button" aria-label="Exam Mode">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">🎓</div>
+          <h4 style="margin-bottom:0.5rem;">Exam Mode</h4>
+          <p style="font-size:0.875rem;">Random, unit-wise, and topic-wise MCQ practice with timer, instant explanation, and score tracking.</p>
+        </div>
+        <div class="card" onclick="App.navigate('flashcards')" style="cursor:pointer;" tabindex="0" role="button" aria-label="Flashcards">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">🃏</div>
+          <h4 style="margin-bottom:0.5rem;">Flashcards</h4>
+          <p style="font-size:0.875rem;">68 auto-generated flashcards covering all key definitions, articles, and concepts across all units.</p>
+        </div>
+        <div class="card" onclick="App.navigate('revision')" style="cursor:pointer;" tabindex="0" role="button" aria-label="Smart Revision">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">🎯</div>
+          <h4 style="margin-bottom:0.5rem;">Smart Revision</h4>
+          <p style="font-size:0.875rem;">1-day-before-exam mode with top 10 topics, must-practice PYQs, and quick revision snippets per unit.</p>
+        </div>
+        <div class="card" onclick="App.navigate('bookmarks')" style="cursor:pointer;" tabindex="0" role="button" aria-label="Bookmarks">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">🔖</div>
+          <h4 style="margin-bottom:0.5rem;">Bookmarks & Notes</h4>
+          <p style="font-size:0.875rem;">Save important topics, write personal notes, and mark topics as complete. All saved in your browser.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Most Important Topics Quick Access -->
+    <section class="section" style="padding-top:0;" aria-labelledby="top-topics-heading">
+      <div class="section-header">
+        <div class="section-label">🔥 High Priority</div>
+        <h2 id="top-topics-heading">Most Frequently Asked Topics</h2>
+        <p class="section-subtitle">Based on PYQ analysis — click any topic to study it now</p>
+      </div>
+      <div id="top-topics-home" style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;">
+        <!-- Dynamically populated -->
+      </div>
+    </section>
+
+    <!-- Study Tips -->
+    <section class="section" style="padding-top:0;padding-bottom:4rem;">
+      <div class="card card-glass" style="text-align:center;padding:2.5rem;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">💡</div>
+        <h3 style="margin-bottom:0.75rem;">Quick Study Tips</h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;text-align:left;margin-top:1.5rem;">
+          <div style="padding:1rem;background:var(--bg-elevated);border-radius:var(--radius-md);border:1px solid var(--border);">
+            <div style="font-size:1.5rem;margin-bottom:0.5rem;">⚡</div>
+            <div style="font-weight:600;margin-bottom:0.25rem;">Use Quick Revision</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Start with Smart Revision mode 1-2 days before exam</div>
+          </div>
+          <div style="padding:1rem;background:var(--bg-elevated);border-radius:var(--radius-md);border:1px solid var(--border);">
+            <div style="font-size:1.5rem;margin-bottom:0.5rem;">📊</div>
+            <div style="font-weight:600;margin-bottom:0.25rem;">Focus on Red Topics</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Red heat map cells = 3+ PYQ appearances. Master these first.</div>
+          </div>
+          <div style="padding:1rem;background:var(--bg-elevated);border-radius:var(--radius-md);border:1px solid var(--border);">
+            <div style="font-size:1.5rem;margin-bottom:0.5rem;">🃏</div>
+            <div style="font-weight:600;margin-bottom:0.25rem;">Daily Flashcards</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Do 15-20 flashcards daily. Mark ones you know to track mastery.</div>
+          </div>
+          <div style="padding:1rem;background:var(--bg-elevated);border-radius:var(--radius-md);border:1px solid var(--border);">
+            <div style="font-size:1.5rem;margin-bottom:0.5rem;">🎓</div>
+            <div style="font-weight:600;margin-bottom:0.25rem;">Attempt All PYQs</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Practice all 450+ PYQs in Exam Mode before your exam.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ── MIND MAP PAGE ─────────────────────────────────────────── -->
+  <div class="page mindmap-page" id="page-mindmap" role="main" aria-label="Interactive Mind Map">
+    <div class="mindmap-toolbar">
+      <div class="mindmap-unit-tabs" role="tablist" aria-label="Unit selection">
+        <button class="mindmap-tab mt-1 active" data-unit="1" role="tab" aria-selected="true">🏛️ Unit 1</button>
+        <button class="mindmap-tab mt-2" data-unit="2" role="tab" aria-selected="false">⚖️ Unit 2</button>
+        <button class="mindmap-tab mt-3" data-unit="3" role="tab" aria-selected="false">💻 Unit 3</button>
+        <button class="mindmap-tab mt-4" data-unit="4" role="tab" aria-selected="false">🤝 Unit 4</button>
+      </div>
+
+      <input
+        type="search"
+        id="mindmap-search"
+        class="mindmap-search"
+        placeholder="🔍 Search nodes..."
+        aria-label="Search mind map nodes"
+      >
+
+      <div style="font-size:0.75rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;">
+        <span>🟡 Badge = PYQ count</span>
+        <span>|</span>
+        <span>🔴 = Very Important</span>
+        <span>|</span>
+        <span>Click node to study</span>
+      </div>
+    </div>
+
+    <div class="mindmap-canvas-wrapper">
+      <svg id="mindmap-svg" role="img" aria-label="Interactive mind map visualization"></svg>
+    </div>
+  </div>
+
+  <!-- ── ANALYTICS PAGE ────────────────────────────────────────── -->
+  <div class="page" id="page-analytics" role="main" aria-label="PYQ Analytics Dashboard">
+    <!-- Rendered by Analytics.init() -->
+    <div class="loading-dots"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+  </div>
+
+  <!-- ── EXAM PAGE ─────────────────────────────────────────────── -->
+  <div class="page" id="page-exam" role="main" aria-label="Exam Mode">
+    <!-- Rendered by Exam.init() -->
+    <div class="loading-dots"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+  </div>
+
+  <!-- ── FLASHCARDS PAGE ───────────────────────────────────────── -->
+  <div class="page" id="page-flashcards" role="main" aria-label="Flashcards">
+    <!-- Rendered by Flashcards.init() -->
+    <div class="loading-dots"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+  </div>
+
+  <!-- ── SMART REVISION PAGE ──────────────────────────────────── -->
+  <div class="page" id="page-revision" role="main" aria-label="Smart Revision Mode">
+    <!-- Rendered by renderRevision() -->
+    <div class="loading-dots"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+  </div>
+
+  <!-- ── BOOKMARKS PAGE ────────────────────────────────────────── -->
+  <div class="page" id="page-bookmarks" role="main" aria-label="Bookmarks">
+    <!-- Rendered by renderBookmarks() -->
+    <div class="loading-dots"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+  </div>
+
+</main>
+
+<!-- ══ TOPIC DETAIL PANEL ══════════════════════════════════════════ -->
+<div id="topic-panel-overlay" class="topic-panel-overlay" role="dialog" aria-modal="true" aria-label="Topic detail panel"></div>
+<aside id="topic-panel" class="topic-panel" aria-label="Topic details">
+  <!-- Rendered dynamically by App.openTopicPanel() -->
+</aside>
+
+<!-- ══ SCROLL TO TOP ════════════════════════════════════════════════ -->
+<button id="scroll-top" title="Scroll to top" aria-label="Scroll to top">↑</button>
+
+<!-- ══ TOAST CONTAINER ══════════════════════════════════════════════ -->
+<div id="toast-container" class="toast-container" role="status" aria-live="polite"></div>
+
+<!-- ══ SCRIPTS (order matters) ══════════════════════════════════════ -->
+<!-- CDN Libraries (loaded here so they don't block initial page render) -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/search.js"></script>
+<script src="js/mindmap.js"></script>
+<script src="js/exam.js"></script>
+<script src="js/flashcards.js"></script>
+<script src="js/analytics.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+// ── Post-load initialization ────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  // Populate "Most Frequently Asked Topics" on homepage
+  const topTopicsEl = document.getElementById('top-topics-home');
+  if (topTopicsEl && window.DataUtils) {
+    const ranked = DataUtils.getRankedTopics().filter(t => t.frequency >= 2).slice(0, 18);
+    topTopicsEl.innerHTML = ranked.map(t => {
+      const imp = DataUtils.getImportanceLevel(t.importanceScore);
+      const unitColors = ['#3b82f6','#10b981','#8b5cf6','#f59e0b'];
+      const color = unitColors[t.unit - 1];
+      return `
+        <button
+          onclick="App.openTopicPanel('${t.id}')"
+          style="
+            padding:0.5rem 1rem;
+            border-radius:9999px;
+            border:1px solid ${color}44;
+            background:${color}11;
+            color:${color};
+            font-size:0.825rem;
+            font-weight:600;
+            cursor:pointer;
+            transition:all 0.2s;
+            display:flex;
+            align-items:center;
+            gap:0.4rem;
+          "
+          onmouseover="this.style.background='${color}22';this.style.transform='scale(1.04)'"
+          onmouseout="this.style.background='${color}11';this.style.transform='scale(1)'"
+        >
+          ${imp.emoji} ${t.title}
+          ${t.frequency ? `<span style="background:${color}33;border-radius:999px;padding:0 0.4rem;font-size:0.7rem;">${t.frequency}</span>` : ''}
+        </button>
+      `;
+    }).join('');
+  }
+
+  // Keyboard shortcuts hint
+  console.log('%c⚖️ ConstitutionIQ', 'font-size:20px;color:#3b82f6;font-weight:bold;');
+  console.log('%cShortcuts: Press "/" to search | Esc to close panel', 'color:#94a3b8;');
+  console.log(`%c${TOPICS.length} Topics | ${PYQS.length} PYQs | ${FLASHCARDS.length} Flashcards loaded`, 'color:#10b981;');
+});
+</script>
+
+</body>
+</html>
