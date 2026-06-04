@@ -299,6 +299,20 @@ const MindMap = (() => {
           .datum(sub)
           .style('cursor', 'pointer')
           .style('opacity', 1) // Always visible!
+          .on('mouseover', function(event) {
+            d3.select(this).select('rect')
+              .transition().duration(200)
+              .attr('stroke-width', 2.5)
+              .attr('transform', 'scale(1.04)');
+            showSubtopicTooltip(event, sub);
+          })
+          .on('mouseout', function() {
+            d3.select(this).select('rect')
+              .transition().duration(200)
+              .attr('stroke-width', 1.5)
+              .attr('transform', 'scale(1)');
+            hideTooltip();
+          })
           .on('click', (event) => {
             event.stopPropagation();
             window.App?.openTopicPanel(sub.parentTopic);
@@ -544,6 +558,26 @@ const MindMap = (() => {
       <div class="mm-tooltip-stars">${stars}</div>
       ${d.frequency > 0 ? `<div class="mm-tooltip-freq">📊 ${d.frequency} PYQ${d.frequency > 1 ? 's' : ''} from past exams</div>` : '<div class="mm-tooltip-freq" style="color:var(--text-muted)">No PYQs yet</div>'}
       <div class="mm-tooltip-hint">Tap/Click to study this topic 📖</div>
+    `;
+    const rect = document.getElementById('mindmap-svg').getBoundingClientRect();
+    let lx = event.clientX - rect.left + 16;
+    let ly = event.clientY - rect.top - 30;
+    if (lx + 220 > rect.width) lx = event.clientX - rect.left - 220;
+    if (ly < 0) ly = event.clientY - rect.top + 20;
+    tt.style.left = lx + 'px';
+    tt.style.top  = ly + 'px';
+    tt.classList.add('visible');
+  }
+
+  function showSubtopicTooltip(event, d) {
+    const tt = document.getElementById('mm-tooltip');
+    if (!tt) return;
+    const summary = window.SUBTOPIC_SUMMARIES ? window.SUBTOPIC_SUMMARIES[d.parentTopic + '@' + d.label] : '';
+    tt.innerHTML = `
+      <div class="mm-tooltip-title">${d.label}</div>
+      <div style="font-size:0.75rem;color:var(--text-muted);margin:0.2rem 0 0.4rem;">Subtopic of: ${DataUtils.getTopicById(d.parentTopic)?.title || ''}</div>
+      <div style="font-size:0.825rem;line-height:1.45;margin-bottom:0.5rem;color:var(--text-secondary);font-weight:500;">${summary || 'Key concepts and syllabus topics.'}</div>
+      <div class="mm-tooltip-hint">Tap/Click to study parent topic 📖</div>
     `;
     const rect = document.getElementById('mindmap-svg').getBoundingClientRect();
     let lx = event.clientX - rect.left + 16;

@@ -253,6 +253,24 @@ const App = (() => {
               <p class="topic-explanation">${topic.explanation}</p>
             </div>
 
+            <!-- Key Concepts & Subtopics -->
+            ${topic.subtopics && topic.subtopics.length ? `
+              <div class="topic-section">
+                <div class="topic-section-title">🔗 Key Concepts & Subtopics</div>
+                <div class="subtopics-list-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:0.75rem;margin-top:0.75rem;">
+                  ${topic.subtopics.map(sub => {
+                    const summary = window.SUBTOPIC_SUMMARIES ? window.SUBTOPIC_SUMMARIES[topic.id + '@' + sub] : '';
+                    return `
+                      <div class="subtopic-summary-card" style="padding:0.75rem 1rem;background:var(--bg-elevated);border-left:3px solid ${unitColor};border-radius:var(--radius-sm);border-top:1px solid var(--border);border-right:1px solid var(--border);border-bottom:1px solid var(--border);box-shadow:var(--shadow-sm);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+                        <strong style="color:var(--text-primary);font-size:0.875rem;display:block;margin-bottom:0.25rem;">${sub}</strong>
+                        <span style="font-size:0.8rem;color:var(--text-secondary);line-height:1.45;display:block;">${summary || 'Detailed coverage inside the explanation below.'}</span>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+            ` : ''}
+
             <!-- Detailed Explanation -->
             <div class="topic-section">
               <div class="topic-section-title">📖 Detailed Explanation</div>
@@ -321,7 +339,7 @@ const App = (() => {
               <div class="topic-section-title">📊 PYQ Analysis</div>
               ${topicPYQs.length ? `
                 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;flex-wrap:wrap;">
-                  <span style="font-weight:700;font-size:1.1rem;color:var(--gold-300);">Appeared ${topicPYQs.length} time${topicPYQs.length>1?'s':''}</span>
+                  <span style="font-weight:700;font-size:1.1rem;color:var(--gold-300);">Appeared ${topicPYQs.reduce((sum, q) => sum + (q.years ? q.years.length : 1), 0)} time${topicPYQs.reduce((sum, q) => sum + (q.years ? q.years.length : 1), 0)>1?'s':''}</span>
                   <div class="pyq-year-badges">
                     ${pyqYears.map(y => `<span class="pyq-year-badge y${y}">${y}</span>`).join('')}
                   </div>
@@ -329,7 +347,7 @@ const App = (() => {
                 ${topicPYQs.map(q => `
                   <div class="pyq-question-card">
                     <div class="pyq-question-meta">
-                      <span class="pyq-year-chip">${q.year}</span>
+                      ${q.years ? q.years.map(y => `<span class="pyq-year-chip y${y}">${y}</span>`).join('') : `<span class="pyq-year-chip">${q.year}</span>`}
                       <span class="pyq-source-chip">${q.source}</span>
                     </div>
                     <div class="pyq-question-text">${q.question}</div>

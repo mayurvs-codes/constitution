@@ -19,7 +19,7 @@ const Analytics = (() => {
     const unitWeights = DataUtils.computeUnitWeightage();
     const ranked = DataUtils.getRankedTopics().slice(0, 20);
     const years = [2023, 2024, 2025];
-    const yearCounts = years.map(y => PYQS.filter(q => q.year === y).length);
+    const yearCounts = years.map(y => PYQS.filter(q => q.year === y || (q.years && q.years.includes(y))).length);
 
     el.innerHTML = `
       <div class="analytics-page">
@@ -131,7 +131,7 @@ const Analytics = (() => {
               ${TOPICS.map(t => {
                 const f = freq[t.id] || 0;
                 const cls = f >= 3 ? 'heat-high' : f >= 1 ? 'heat-medium' : 'heat-low';
-                const years = [...new Set(PYQS.filter(q=>q.topic===t.id).map(q=>q.year))].sort();
+                const years = [...new Set(PYQS.filter(q=>q.topic===t.id).flatMap(q=>q.years || [q.year]))].sort();
                 return `
                   <div class="heat-cell ${cls}" onclick="App.openTopicPanel('${t.id}')" title="${t.title}: ${f} PYQ(s)">
                     <div class="heat-cell-count">${f}</div>
@@ -188,7 +188,7 @@ const Analytics = (() => {
             callbacks: {
               afterLabel: (ctx) => {
                 const topic = topics[ctx.dataIndex];
-                const years = [...new Set(PYQS.filter(q=>q.topic===topic.id).map(q=>q.year))].sort();
+                const years = [...new Set(PYQS.filter(q=>q.topic===topic.id).flatMap(q=>q.years || [q.year]))].sort();
                 return years.length ? `Years: ${years.join(', ')}` : '';
               }
             }
